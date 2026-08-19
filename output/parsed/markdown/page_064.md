@@ -30,7 +30,7 @@ It blinks when the DPF regeneration process is required.
 
 It comes on while DPF regeneration process is on progress.
 
-## WARNING
+#### WARNING
 
 - Muffler and exhaust gas are very hot while DPF regeneration process is on progress.
 

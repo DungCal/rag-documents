@@ -8,7 +8,7 @@ Unit: mm
 
 The tread can be adjusted by switching the rims and discs on the left and right sides.
 
-## WARNING
+#### WARNING
 
 - For safety, have tread adjustment performed by your dealer or workshop.
 

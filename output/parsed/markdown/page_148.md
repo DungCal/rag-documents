@@ -26,7 +26,7 @@ If defect is found, replace it with a new one. (The cabin relay box is installed
 
 5. Check the belt tension after operating the engine for approx. 15 minutes.
 
-## CAUTION
+#### CAUTION
 
 - Only carry out work on the belt drive with the engine at a standstill!
 

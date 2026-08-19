@@ -6,7 +6,7 @@ Park on a leveled and safe ground safely.
 
 Check if the wiring code is in contact with other parts, peeled, loose or having spacing.
 
-## Manage PTO
+#### Manage PTO
 
 - Stop PTO before stopping the engine.
 
@@ -18,7 +18,7 @@ To repair, secure the wheel width, or changing the wheel under either tractor or
 
 Do not use hydraulic jack for operating machine or tractor. Instead, use block or stand.
 
-## Safety frame
+#### Safety frame
 
 - Do neither weld nor drill a hole on the attached safety frame. Also do not modify it.
 
@@ -40,6 +40,6 @@ When checking and replacing the blade to plow the ground
 
 - Do not stand between tractor and rotary.
 
-## When working with rotary
+#### When working with rotary
 
 - Do not put your hands near the rotating part such as blade axle and universal joint.

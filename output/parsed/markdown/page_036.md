@@ -11,7 +11,7 @@ Failure to follow these instructions can result in serious injury.
 
 7. Do not modify or alter or permit anyone else to modify or alter this tractor or any of its components or any tractor functions.
 
-## <OPERATING THE TRACTOR>
+#### <OPERATING THE TRACTOR>
 
 1. Before starting the tractor apply the parking brake, place the PTO (Power Take Off) lever in the “OFF” position, the position control levers in the downward position, the hydraulic control levers in the neutral position(If fitted) and the transmission in neutral.
 

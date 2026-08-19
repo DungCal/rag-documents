@@ -2,7 +2,7 @@
 
 Be careful of objects falling from loader.
 
-## IMPORTANT
+#### IMPORTANT
 
 - ROPS (Roll Over Protective Structure), sun canopy or cabin are not a FOPS (Falling Object Protective Structure). It never can protect the riders against falling objects.
 Avoid driving the vehicle into a dangerous area such as falling rocks zone.

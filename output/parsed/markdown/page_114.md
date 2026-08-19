@@ -22,7 +22,7 @@ If necessary, have your tractor checked by workshop.
 
 ![](530f2bd8269f6d84d7350a0f6933cddf990cfd484ddd94ed42a9f2f4a62cc52e.jpg)
 
-## DANGER
+#### DANGER
 
 - Allow the engine to cool down before opening radiator cap as serious burns may result due to hot steam and boiling water.
 

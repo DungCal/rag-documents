@@ -1,6 +1,6 @@
 ## 1. STANDARD FOR FARMWORK
 
-## SAFETY MARK
+### SAFETY MARK
 
 Always make sure to check the operating condition of the safety lamp (such as turn signal lamp) before operating the machine.
 

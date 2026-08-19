@@ -6,7 +6,7 @@ This indicates the engine RPM (Rotation Per Minute).
 
 The green arrow indicates the engine speed at the standard 540 RPM speed of the PTO.
 
-## IMPORTANT
+#### IMPORTANT
 
 - The engine can be damaged if increasing its speed too fast.
 

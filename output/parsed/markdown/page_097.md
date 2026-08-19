@@ -6,7 +6,7 @@ When using the A/C or heater in the fresh air mode, fresh air is drawn into the 
 
 There are two circulation modes for the A/C and heater operation; fresh air mode and recirculation mode.
 
-## <Fresh air/recirculation mode selection>
+#### <Fresh air/recirculation mode selection>
 
 The fresh air mode or recirculation mode can be selected by opening or closing air inlet on the roof in the cabin.
 
@@ -16,7 +16,7 @@ The fresh air mode or recirculation mode can be selected by opening or closing a
 
 ![](34fb953b2ed6df0be298bd53518360b1082f4adf0b4ee763babd19bc2d03f9f8.jpg)
 
-## WARNING
+#### WARNING
 
 - If the cabin needs to be ventilated, select the fresh air mode.
 
@@ -28,7 +28,7 @@ Then, fresh air is drawn into the cabin from outside through the filter.
 
 ![](7de2682cf2e0462b4fb883b79f88a3da38bc3a6ef3497a4892f37bedbd073563.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - The fresh air suction filter can remove dust in air, but not chemicals in pesticides.
 

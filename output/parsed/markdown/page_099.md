@@ -26,7 +26,7 @@ To fix the position, push down the lever.
 
 ![](f816f5f615c7df1e6dd641d2df469e127dac546835a56dabae16f0b2c013dffb.jpg)
 
-## WARNING
+#### WARNING
 
 - Adjust the position of the steering only when the tractor is stationary.
 
@@ -40,7 +40,7 @@ The passenger seat is only for an instructor or inspector.
 
 ![](1a6948cdd08522f836200f0583586c592fc5be46d28ed3dbe15e9da9c4a93289.jpg)
 
-## DANGER
+#### DANGER
 
 - No one, except the driver, should ride the tractor while moving or driving on a road.
 

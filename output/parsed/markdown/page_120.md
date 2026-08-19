@@ -10,7 +10,7 @@ Keep the clearance between the rear wheels as large as possible for safety of th
 
 ![](e4f1e03f7841b59c83a356980a4ef2bfe5e8b270b2c79d49d80d14ed843b639e.jpg)
 
-## WARNING
+#### WARNING
 
 - Do not let anyone ride a loader for work, such as spreading fertilizer.
 
@@ -18,7 +18,7 @@ He/she may fall off the loader, leading to an injury or even death.
 
 - Always lower the loader to the ground before leaving the tractor.
 
-## + IMPORTANT
+#### + IMPORTANT
 
 - This chapter only provides brief descriptions and instructions for a rotavator and loader.
 

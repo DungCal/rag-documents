@@ -10,7 +10,7 @@
 
 ![](8fff13c365ae770ca484c1ec0604b1e65281bc16e2b7827bfe4ebcc468d695db.jpg)
 
-## WARNING
+#### WARNING
 
 - To prevent a burn and skin damage, make sure to stop the engine before connecting or disconnecting the coupler.
 
@@ -32,7 +32,7 @@ This system has the following three control modes and each mode can be selected 
 
 ![](d850abd8183c2cdf3caa992eb8fdbd372f828ee7b4badc18d4ab7784e0d0bc75.jpg)
 
-## WARNING
+#### WARNING
 
 - Before operating the control unit, make sure that the knobs are adjusted to the desired positions.
 
@@ -42,7 +42,7 @@ This system has the following three control modes and each mode can be selected 
 
 ![](2197ac82f61880a43bb44859e9c7a28bec163368954127eaed44c123652cd20d.jpg)
 
-## CAUTION
+#### CAUTION
 
 - To prevent damage to electronic components, keep the following instructions when arc welding the tractor equipped with the electronic lift or an attached implement.
 

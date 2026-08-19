@@ -12,13 +12,13 @@ Observe all legal provisions as envisaged in the highway code relative to nation
 
 ![](f81ac65fcf249e864e4c884f61343ddb0cf6a456a1bc30fbf5083105a584bf7d.jpg)
 
-## DANGER
+#### DANGER
 
 - NEVER permit other persons to access the tractor operator position during towing.
 
 ![](0b9e3912ea77771d56c0d56e4f39a00cf8165493653a556fd3e019aa545ae3a3.jpg)
 
-## WARNING
+#### WARNING
 
 - We recommend transporting the tractor on a low loader in the case of longer transport distances.
 
@@ -28,7 +28,7 @@ Check that the loader is suitable for the weight of the tractor to be transporte
 
 ![](79162f457acedbf202b3402ed91046acd85134e994c207b0484db030f4b3bb91.jpg)
 
-## CAUTION
+#### CAUTION
 
 - An operator must always be at the tractor's controls when the tractor is being towed.
 

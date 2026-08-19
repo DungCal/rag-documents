@@ -2,7 +2,7 @@
 
 ![](54b39ba679d614a503869b295b73df0bb929ce041e14d0269916b60860558c70.jpg)
 
-## 4WD SWITCH
+#### 4WD SWITCH
 
 It is possible to control the 4WD function manually by a driver for easier operation.
 
@@ -10,7 +10,7 @@ Pressing the button once turns on the lamp and activates the manual mode.
 
 Pressing it once again turns off the lamp and deactivates the manual mode.
 
-## <Examples of useful conditions of 4WD>
+#### <Examples of useful conditions of 4WD>
 
 The 4WD can be useful under the following conditions:
 
@@ -24,7 +24,7 @@ The 4WD can be useful under the following conditions:
 
 5. When driving into/out of a field or going over a field bank
 
-## IMPORTANT
+#### IMPORTANT
 
 - Avoid using the 4WD on a road or hard soil.
 
@@ -36,7 +36,7 @@ The tires can be worn excessively.
 
 ![](092c0adf1158eea8f9292a2be7254f88ee063a2eb784135a69589e76f7a6fdc5.jpg)
 
-## BACK UP SWITCH
+#### BACK UP SWITCH
 
 This function is to lift the implement automatically when the vehicle is driven backward.
 

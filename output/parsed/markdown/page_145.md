@@ -4,7 +4,7 @@
 
 ![](65c2ea38d4383eb0d2a804e4c88656ddab027c2d1d0260ad2f1542212bf48760.jpg)
 
-## WARNING
+#### WARNING
 
 ● Make sure to connect the positive terminal first and connect the negative terminal to the engine body of the tractor with the discharged battery.
 

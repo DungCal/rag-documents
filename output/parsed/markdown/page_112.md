@@ -24,13 +24,13 @@ Travel speed must always be such as to allow complete control and stability of t
 
 ![](7e31b5911e0598dcccde96f52f9b1b3993db99061d0679caa66d47cd95f01678.jpg)
 
-## DANGER
+#### DANGER
 
 - Never attempt to tow the tractor with ropes (including steel ropes) because rope breakage can cause serious injury.
 
 ![](9a1b2f5e9b019e748bfc7390984eb7ae5f98a4a5a9a45505a6f7fd43e347728b.jpg)
 
-## WARNING
+#### WARNING
 
 - Switch on the hazard warning lights and revolving warning lights.
 
@@ -46,6 +46,6 @@ With engine stopped and with forced gearbox lubrication system inoperative the t
 
 ![](154e9d7a87e5d142149c1cc429bdc8c63caebbfdb377319be11d0c1e65cf7897.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - With engine stopped and with forced gearbox lubrication system inoperative the tractor can be transferred to a service center only when loaded onto a transporter.

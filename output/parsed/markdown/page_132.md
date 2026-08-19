@@ -6,7 +6,7 @@ Working at night, the radiator or condenser grille may be clogged by grass, stra
 
 Clean the grille in this case. If dust is stuck between the fin and tube, flush the area with clean water.
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not clean the radiator fin with water jet.
 It can deform the fin.
@@ -21,7 +21,7 @@ Lift the opening levers on both side to access to the condenser and oil cooler. 
 
 ![](cdfc31e0821ef42a4bdea670e6244f84cbe3f25c3b056f0385052257f2e6bda0.jpg)
 
-## <Inspection>
+#### <Inspection>
 
 1. Remove dipstick gauge provided on the right hand side of the crankcase.
 

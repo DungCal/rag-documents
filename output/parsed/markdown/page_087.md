@@ -8,7 +8,7 @@ Use the top link up / down switches on switch panel or external top link up / do
 
 ![](748536463ffd8196ced92f472e9af76067278a6b2f2230ae81b84f82bef08183.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - When no implement is attached, engage the top link with the hook.
 

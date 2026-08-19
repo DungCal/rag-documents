@@ -82,7 +82,7 @@ NOTIFICATION ·····G-11
 
 NOTIFICATION (DETAIL) ·······G-12
 
-## . 0
+#### . 0
 
 OIL PRESSURE CHECK ······D-14
 

@@ -16,7 +16,7 @@ When the PTO shaft is not in use, apply grease and place its cap to it.
 
 ![](1fa79e300bd013bcae0478a5ba960ce969762ca708ab4cfe58fd7c557998ddb9.jpg)
 
-## DANGER
+#### DANGER
 
 - If caught by the PTO shaft, a severe injury or even death can occur.
 
@@ -28,7 +28,7 @@ When the PTO shaft is not in use, apply grease and place its cap to it.
 
 ![](bee30fd9032c525b85db4dcef3750b3a09d15f6ad908e91bee6db5d1bd3ed9b6.jpg)
 
-## CAUTION
+#### CAUTION
 
 - It is dangerous to use an implement at a high speed if it is designed to be operated at a low speed.
 

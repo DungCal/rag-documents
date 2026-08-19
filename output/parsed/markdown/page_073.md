@@ -6,7 +6,7 @@ The loader valve is installed under the step on the right side and the joystick 
 
 ![](50992a620c5d8ad456d240d22531355072f0d72ed5f12c90033ad010d12af5ce.jpg)
 
-## WARNING
+#### WARNING
 
 - Abnormal operation of a loader can lead to an accident.
 Therefore, when connecting the hydraulic pipes, set the valve connection according to the operating directions specified on the label attached to the joystick lever.

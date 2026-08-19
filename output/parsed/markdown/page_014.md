@@ -7,7 +7,7 @@ Side indicator lamps, plough lamp, brake light, gauge lamp, hazard lamp. Generat
 
 ![](0ccb3fa3b8d2a99adeb096ff861d9b808e14da86d71910854699c1ae8c3f7288.jpg)
 
-## WARNING
+#### WARNING
 
 - When operating the tractor at high speed, do not attempt to make sharp turns by using the brakes.
 This may result in overturning of the tractor causing serious injury or death.

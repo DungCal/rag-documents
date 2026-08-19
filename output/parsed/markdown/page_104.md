@@ -14,7 +14,7 @@
 
 ![](76434994b90fcb2399f57bb3d17a39364e2d87b44b65fdbc750af1f3c4bd6621.jpg)
 
-## WARNING
+#### WARNING
 
 ● After parking, make sure to apply the parking brake.
 
@@ -42,7 +42,7 @@
 
 ![](d55637e8b68b48b25cc3ba80aa04bbf44195708c75011d72edb6e26115823d62.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - When the needle on the coolant temperature gauge is pointing at 「H」 or coolant lamp comes on, engine is overheated.
 
@@ -52,7 +52,7 @@ Make sure to take an appropriate action immediately.
 
 ![](5d4cf40f8db02ce60ca8ef14c467ee693167dd8dd9843e8307dca6bfe8f501fd.jpg)
 
-## WARNING
+#### WARNING
 
 - On a downhill road, use the engine brake.
 

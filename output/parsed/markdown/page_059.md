@@ -36,7 +36,7 @@ This comes on when the start switch is turned to the "ON" position and goes off 
 
 ![](b1bfd6738185613f4b39cfef6b2d7c67bee0725f736408ccd21430bbf09d66fe.jpg)
 
-## WARNING
+#### WARNING
 
 - If the charge warning lamp comes on while driving, the battery is not properly charged.
 

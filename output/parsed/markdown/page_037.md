@@ -19,7 +19,7 @@ Be sure the lights are adjusted to prevent the blinding on the eyes of coming ve
 16. Emergency stopping instruction; If tractor fails to stop even after application of brakes.
 Pull the knob of fuel shut off control rod.
 
-## <DRIVING THE TRACTOR>
+#### <DRIVING THE TRACTOR>
 
 1. Watch where you are going especially at row ends, on roads, around trees and low hanging obstacles.
 

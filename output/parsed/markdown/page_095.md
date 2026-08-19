@@ -20,7 +20,7 @@ In order to wind it up again, pull the handle back to its original position and 
 
 ![](dd78130705f441578ff94bb868f056dc702fcf0a77cf9ade7ce30df259e138c0.jpg)
 
-## <how to use a heater>
+#### <how to use a heater>
 
 1. To use the heater, turn the temperature control dial counterclockwise.
 
@@ -28,7 +28,7 @@ In order to wind it up again, pull the handle back to its original position and 
 
 3. Warm air can be provided when the engine coolant is sufficiently warm.
 
-## <Cautions for using heater>
+#### <Cautions for using heater>
 
 - Make sure to use antifreeze for the winter season in winter.
 

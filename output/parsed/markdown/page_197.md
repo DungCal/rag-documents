@@ -40,7 +40,7 @@ Battery, fuel level, coolant temperature, transmission oil temperature, urea lev
 
 Engine hours
 
-## BATTERY
+#### BATTERY
 
 ![](b8138ff11e1e69714e344d767cc87ee25fa1c6ec9de9e9400136519605926d2c.jpg)
 

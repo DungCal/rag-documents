@@ -16,7 +16,7 @@ Do not wear the seat belt with the ROPS lowered and please remember that the fol
 
 ![](91ab3f50b1f26d724369e0652774b119710027dc2e945acfb9cd6b2201b8dddc.jpg)
 
-## DANGER
+#### DANGER
 
 - For ROPS frames to be effective and protect the operator, the seat belt provided must be worn in order to keep operators within the ROPS protected area in the event of a roll over. Failure to use the seat belt can still cause serious injury or death.
 

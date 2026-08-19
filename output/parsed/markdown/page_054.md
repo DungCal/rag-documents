@@ -1,4 +1,4 @@
-## DPF REGENERATION PROCESS AND LAMPS
+#### DPF REGENERATION PROCESS AND LAMPS
 
 ![](173bec46f4674869da6e3e998ef4302f1b0d673cad7de5152e507b2dbfb2ad60.jpg)
 
@@ -6,7 +6,7 @@ This lamp is on during DPF regeneration process.
 
 ![](7eeeecd4d04547485d315ec4839dc6b3c0cde6bd7b4d1d8d81b2165d5fc42f7b.jpg)
 
-## WARNING
+#### WARNING
 
 - Be careful with muffler and exhaust gas during DPF regeneration process since they are extremely hot.
 
@@ -34,7 +34,7 @@ Operation of the tractor without DPF regeneration after the DPF regeneration lam
 
 ![](2d85c0e2f3acecc30d05edf73919d1a7d6fbc9ef658fa8dfedb40d50915fb85c.jpg)
 
-## WARNING
+#### WARNING
 
 - Perform DPF regeneration process when DPF warning lamp is on.
 The engine RPM may go down until DPF regeneration process is done.

@@ -7,7 +7,7 @@ The installation type is category II.
 
 (Implement mounting hole diameter: 1.13 inch)
 
-## IMPORTANT
+#### IMPORTANT
 
 - When no implement is attached, fix the lower links with the left and right check links so that they do not touch the rear wheels.
 
@@ -21,7 +21,7 @@ Confirm that the lock pin is installed after connecting to an implement.
 
 Install only an implement applicable to the tractor.
 
-## WARNING
+#### WARNING
 
 ● Make sure to use the towing hitch for towing to avoid rollover.
 

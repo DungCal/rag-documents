@@ -12,7 +12,7 @@ Tap the ‘more’
 
 icon to change the machine name.
 
-## NOTIFICATION
+#### NOTIFICATION
 
 ![](fe94f2e881fe43f69bc3786423f993bfc7449d2af3a0d785a48a978ff4f2f09a.jpg)
 

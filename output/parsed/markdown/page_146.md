@@ -6,17 +6,17 @@ The battery disconnect knob (1) is located on the bracket to the right of the ba
 
 The battery disconnect knob may be removed for safety purposes in the manner described below.
 
-## <Removal of the knob>
+#### <Removal of the knob>
 
 1. Press the knob in and continue to turn it counter-clockwise as far as it will go.
 
-## <Refitting the knob>
+#### <Refitting the knob>
 
 1. Press and turn the knob clockwise, positioning it at "ON".
 
 ![](4d334370902d8e4e6a0131fe4102f658946360eef2fd82d80326a0716a1171f6.jpg)
 
-## CAUTION
+#### CAUTION
 
 - When the ignition switch is turned to the OFF position, urea is returned to the tank automatically.
 However, this may take up to 2 minutes do not disconnect battery within less than 2 minutes from engine shut down.

@@ -2,13 +2,13 @@
 
 ![](d48c0ad8b89e6327770db860ac9a476f7ae97e5593a7f5bc6ea5c0257cc842c2.jpg)
 
-## <Inspection>
+#### <Inspection>
 
 Open the coolant cap and check if coolant is filled up to the filler neck. If not, add more coolant to the radiator.
 
 ![](44020abce7a97292e78ea18c5bb269d3765c2b469b598def8d8ff20ef04e2d60.jpg)
 
-## <Changing>
+#### <Changing>
 
 1. To drain coolant rapidly, open the drain cock and remove the radiator cap simultaneously.
 
@@ -24,7 +24,7 @@ level in the reservoir tank.
 
 Add more coolant as necessary.
 
-## <Anti-freeze>
+#### <Anti-freeze>
 
 If coolant freezes, the engine can be damaged.
 
@@ -34,7 +34,7 @@ The mixture ratio of antifreeze is different by manufacturers and temperature. R
 
 Mix antifreeze with water sufficiently before adding it.
 
-## Adding antifreeze
+#### Adding antifreeze
 
 - If evaporated: Add water for the reduced amount.
 
@@ -42,7 +42,7 @@ Mix antifreeze with water sufficiently before adding it.
 
 ![](359c8a7dab3f41b026b9a88296b0644f7356296a628c9ae3eb3a914e03eea1f6.jpg)
 
-## CAUTION
+#### CAUTION
 
 - If engine coolant gets on your skin, it can irritate the skin and cause a skin condition.
 

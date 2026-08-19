@@ -32,7 +32,7 @@ Clothes and small bag can be hung on it.
 
 USB charger is installed for convenience.
 
-## WARNING
+#### WARNING
 
 - Never place any part of your body, such as your filter, or a conductive object into the power socket. You can get a shock or a fire can break out.
 

@@ -10,7 +10,7 @@ Be cautious not to let anyone touch the belt.
 
 Always check the connected area of belt. When two people are working collaboratively, exchange signals each other.
 
-## Prevent injury.
+#### Prevent injury.
 
 - Do not touch power transmission gear, rotating unit, and other dangerous parts.
 
@@ -30,7 +30,7 @@ Do neither stay nor insert foot under the working units.
 
 ### ▶ CAUTIONS WHEN DRIVING ON FARM ROAD
 
-## Driving on roads
+#### Driving on roads
 
 - Drive safely observing the relevant regulation.
 

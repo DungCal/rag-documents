@@ -1,0 +1,34 @@
+## 3. MAJOR CONSUMABLES
+
+![](6cbaf9e29c9d9afb7b9c7b7fa0e14da6a31acea12d0bba4c3b8825552afc1951.jpg)
+
+### FUEL FILTER
+
+![](5f81b65798cf066bc4ac461158b7ff6f71d20841e0a1db292dd33b48401f2128.jpg)
+
+#### ENGINE OIL FILTER
+
+![](c40f71f7c41e19828a278a57627069df2a738affe0b58ba4d0cc26088bbcf973.jpg)
+
+#### SUCTION FILTER
+
+![](97e26a3af87b2bd7f28a9ae563e3f6475e1dfc5bf55cc9d655cd34f8ec630ab2.jpg)
+
+#### FAN BELT
+
+![](b29aca15b77d94b7ae2b830b896d023b5b06eeb900fd09a1edaa9e06630529cb.jpg)
+
+#### A/C BELT
+
+![](f3dc91a65ac48baf9be74edb2158c19b6c84fc2dcffbe498ceeaa7736c7407bb.jpg)
+
+#### HIGH-PRESSURE FILTER
+
+| NO. | ITEM | APPLYING PART | QUANTITY | REMARK |
+| --- | --- | --- | --- | --- |
+| 1 | FUEL FILTER | FUEL | 1 |  |
+| 2 | ENGINE OIL FILTER | ENGINE | 1 |  |
+| 3 | SUCTION FILTER | TRANSMISSION | 2 |  |
+| 4 | FAN BELT | ENGINE | 1 |  |
+| 5 | AIR CONDITIONER BELT | ENGINE | 1 |  |
+| 6 | HIGH-PRESSURE FILTER | TRANSMISSION | 1 |  |

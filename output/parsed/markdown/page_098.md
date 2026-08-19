@@ -22,7 +22,7 @@ Its height can be adjusted by pressing the lock on the seatback and headrest mou
 
 Before driving, adjust the length of the seat belt properly and fit its tongue into the receptacle until it clicks.
 
-## WARNING
+#### WARNING
 
 - Make sure to fasten your seat belt to protect yourself in case of rollover or collision.
 

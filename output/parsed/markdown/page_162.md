@@ -24,7 +24,7 @@ Main menu is composed of items below.
 
 ⑨ Current temperature of transmission oil.
 
-## HOME MENU
+#### HOME MENU
 
 ![](068fec1cd4447190c346e0209ada20c985e371ee5dec59e9e48c8549cc71e829.jpg)
 

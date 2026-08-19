@@ -11,6 +11,6 @@ When lowering or lifting an implement, use the lever (2) only to keep the settin
 
 Set the lever (2) between 0 ~ 1 and press lift arm lowering button (14). Floating mode will be activated.
 
-## WARNING
+#### WARNING
 
 - When leaving from the tractor, lowering a implement and stop the engine to prevent from unexpected an accident.

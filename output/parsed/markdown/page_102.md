@@ -6,7 +6,7 @@
 
 3. Keep the remote key securely.
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not stop the engine at a high speed.
 
@@ -16,14 +16,14 @@
 
 After starting the engine, idle the engine for 5 ~ 10 minute so that oil is delivered to each part of the engine.
 
-## WARNING
+#### WARNING
 
 ● Make sure to apply the parking brake while idling the engine.
 
 - Never idle the engine in a poorly ventilated area.
 It can cause carbon monoxide poisoning by emissions.
 
-## IMPORTANT
+#### IMPORTANT
 
 - If the engine is loaded right after it is started, it may cause engine stalling and failure.
 
@@ -50,6 +50,6 @@ Make sure to idle the engine in winter according to the following instructions.
 | 14°F ~ - 4°F(- 10°C ~ -20°C) | 20 ~ 30 min. |
 | - 4°F or less(- 20°C or less) | more than 30 min. |
 
-## WARNING
+#### WARNING
 
 ● Proper ventilation is needed when the engine idling is performed indoors.

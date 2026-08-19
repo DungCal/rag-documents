@@ -22,7 +22,7 @@
 
 ![](8d2c5c0bf0db84d2cd46b1897de12fbff1915deb414b37eaac842193f372f519.jpg)
 
-## CAUTION
+#### CAUTION
 
 - The filter cartridge should never be prefilled.
 There is a danger of dirt contamination!

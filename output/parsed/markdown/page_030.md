@@ -4,7 +4,7 @@ The term FOPS refers to structure installed on the tractor intended to reduce th
 
 ![](2598c01218752d8b763138115b5fe91f1944c4986916fa812f9ad66d9f18cdb2.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - This tractor is not equipped with a FOPS.
 
@@ -16,7 +16,7 @@ The term OPS refers to a protective structure installed on a tractor in order to
 
 ![](b10b34195f72d8d724559bd63acd1e48cd0d3cd05f0e7d52cdab2f05d10b2623.jpg)
 
-## DANGER
+#### DANGER
 
 - This tractor is not equipped with an OPS. If work must be performed in areas subject to the risk of the penetration of objects into the operator position, consult your dealer before starting work so that the tractor can be equipped with an appropriate protective structure.
 

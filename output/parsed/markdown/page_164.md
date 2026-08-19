@@ -1,4 +1,4 @@
-## PLAY MUSIC (USB DRIVE)
+#### PLAY MUSIC (USB DRIVE)
 
 ![](6bda5a695014c1915665187087599da71eb2b080f708be1259e7dbf3ded5b983.jpg)
 
@@ -24,7 +24,7 @@ You can play music files on USB drive. (Supported file format: MP3, AAC, OGG, FL
 
 ⑩ Time of music played and total time of a music.
 
-## PLAY MUSIC (BLUETOOTH)
+#### PLAY MUSIC (BLUETOOTH)
 
 ![](d64a887dd0863c918018509cfb65a1126e0ac61d3d1d36211f608d4cdc49c9d8.jpg)
 

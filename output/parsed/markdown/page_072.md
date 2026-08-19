@@ -4,7 +4,7 @@
 
 This lever is used to control a loader.
 
-## <Joystick lever operating direction>
+#### <Joystick lever operating direction>
 
 ![](bbaf3220db00566fd35bd8fad0fc9c173451f707811d08f1f7252e711c2e8367.jpg)
 
@@ -22,7 +22,7 @@ a Bucket up
 
 © Boom up ⓔ Boom down ⓔ Floating
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not operate the boom cylinder and bucket cylinder simultaneously. Their simultaneous operation can lead to a lack of hydraulic oil, resulting in abnormal operation of the loader.
 
@@ -48,6 +48,6 @@ There is a switch to lock the operation of the joystick lever.
 
 Pushing it to the left locks the lever while pushing it to the right unlocks the lever.
 
-## IMPORTANT
+#### IMPORTANT
 
 - A implement can be dropped suddenly by operating the joystick lever accidentally. Therefore, lock it in position with its lock switch when it is not in use.

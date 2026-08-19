@@ -16,7 +16,7 @@ Fix the rubber at the proper location & check for leakages if any.
 
 - If air is leaking through the hose connection, check & rectify other leakages, too.
 
-## IMPORTANT
+#### IMPORTANT
 
 - If air cleaning system is not properly maintained, it will lead to early wear of piston rings & sleeves.
 

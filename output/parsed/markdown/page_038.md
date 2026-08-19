@@ -1,4 +1,4 @@
-## <OPERATING THE PTO>
+#### <OPERATING THE PTO>
 
 1. When operating PTO driven equipment, shut off the engine and wait until the PTO stops before getting off the tractor and disconnecting the equipment.
 
@@ -11,7 +11,7 @@ Do not clean, adjust or service PTO driven equipment when the tractor engine is 
 
 5. Make sure the PTO master shield is installed at all times and always replace the PTO shield cap when the PTO is not in use.
 
-## <DIESEL FUEL>
+#### <DIESEL FUEL>
 
 1. Keep the equipment clean and properly maintained.
 
@@ -44,6 +44,6 @@ A none approved cap may not be safe.
 
 13. Use ultra-low sulfur fuel only.
 
-## IMPORTANT
+#### IMPORTANT
 
 - It is suggested that after repairs if any of the safety decals or signs are peeled or defaced, the same may be replaced immediately in interest of your safety.

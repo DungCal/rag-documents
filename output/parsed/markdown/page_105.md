@@ -12,7 +12,7 @@
 
 ![](186ede88a651ca6b972fb5918a80a32dab9beed7cde73ded64c88f77f8e5c33d.jpg)
 
-## WARNING
+#### WARNING
 
 - Be careful to keep the tractor's balance when working on a slope.
 
@@ -44,6 +44,6 @@ The tractor may become out of balance and roll over.
 
 ![](f9c1be03ad38507f364fd40134d8fedf9d61ef26f7292f6e2654a60e99450290.jpg)
 
-## WARNING
+#### WARNING
 
 - If driving on a road with an implement attached, the front side of the tractor tends to be lifted and vehicle may not be steered properly.

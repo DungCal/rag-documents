@@ -57,13 +57,13 @@ Lift 3P to highest position at once.
 14. LIFT ARM LOWERING BUTTON
 Lift 3P to lowest position at once.
 
-## <SWING DAMPING DEVICE>
+#### <SWING DAMPING DEVICE>
 
 This device is to protect the hydraulic system against impact from an implement when driving the tractor equipped with an implement.
 
 To activate this device, set the lever (2) to the lifting position (A) and press the switch (11).
 
-## <OPERATION>
+#### <OPERATION>
 
 There are three control modes for an 3P implement:
 

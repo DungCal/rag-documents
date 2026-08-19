@@ -1,10 +1,10 @@
-## Inner/Outer air Ventilation
+#### Inner/Outer air Ventilation
 
 - when louvers are opened cabin air will be recirculated.
 
 - For effective use, open the louvers when operating the heater or air conditioner and close the louvers when ventilating fresh air. 1220-904-122-
 
-## Caution for operating turbocharged Engine
+#### Caution for operating turbocharged Engine
 
 1. Do not increase engine RPM rapidly right after the ignition.
 
@@ -13,7 +13,7 @@
 3. Idle the engine for 2~3 minutes before running the tractor when the tractor has completely stopped or it is engine oil or filter changed or it is in the freeze weather.
 (Not following the instruction above, it may cause damage to the turbocharger.)
 
-## Caution for operating DeSOx
+#### Caution for operating DeSOx
 
 1. When DeSOx lamp is on, DeSOx has to be done while the tractor is completely stopped(Natural Position)
 
@@ -24,7 +24,7 @@
 
 ![](a97e927ab4614a2199c69959f5f9022cd05e23cff1d94a43a70a4b2bad707e1c.jpg)
 
-## CAUTION
+#### CAUTION
 
 Always place the transmission in neutral and apply the parking brake while the tractor
 
@@ -36,7 +36,7 @@ Failure to do so can cause accidents and damages.
 
 ![](4b728f422f074197a5b8d78b227f103ab8bf1d4680ce20e00e3acb72ee6d9ac9.jpg)
 
-## Caution for operating turbocharged Engine
+#### Caution for operating turbocharged Engine
 
 1. Do not increase engine RPM rapidly right after the ignition.
 
@@ -46,7 +46,7 @@ Failure to do so can cause accidents and damages.
 
 (Not following the instruction above, it may cause damage to the turbocharger.)
 
-## Caution for operating DeSOx
+#### Caution for operating DeSOx
 
 1. When DeSOx lamp is on, DeSOx has to be done while the tractor is completely stopped(Natural Position)
 
@@ -62,7 +62,7 @@ Failure to do so can cause accidents and damages.
 | [3w8y] | TO PROJECT YOUR ENGINE:1. To activate the regeneration junction manuallyThe engine has warning alarm andregeneration amp is eliminated.2. For the regeneration process, refer to the Operator's Manual |
 | ![](d3a1049ed5596126e9324c966e7300f06b5d4ccfd6ac82e6b8aff4e6ca53ccdb.jpg) | 1. Press this switch to store automatic regeneration only.2. Do not press on a switch frequently to prevent from engine derate running.For further details,consult your Operator's Manual or your local dealer. |
 
-## Adjust Shuttle Response with Black Rotary Knob
+#### Adjust Shuttle Response with Black Rotary Knob
 
 The middle knob position is recommended for most applications.
 

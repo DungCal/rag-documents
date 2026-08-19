@@ -10,11 +10,11 @@ Never drive down-hill at high speed or with the transmission in neutral. Use of 
 
 Please remember that a little bit of extra care can prevent serious injury or death and avoid damage to your tractor.
 
-## THE FOLLOWING PRECAUTIONS ARE SUGGESTED TO HELP PREVENT ACCIDENTS protection
+#### THE FOLLOWING PRECAUTIONS ARE SUGGESTED TO HELP PREVENT ACCIDENTS protection
 
 A careful operator is the best operator. Most accidents can be avoided by observing certain precautions. Read and take the following precautions before operating the tractor to prevent accidents. Tractor should be operated only by those who are responsible and properly trained to do so.
 
-## <THE TRACTOR>
+#### <THE TRACTOR>
 
 1. Read the operator's manual carefully before using the tractor. Lack of operating knowledge can lead to accidents.
 
@@ -36,7 +36,7 @@ protection.
 
 8. Keep safety signs clean of dirt and grease.
 
-## <SERVICING THE TRACTOR>
+#### <SERVICING THE TRACTOR>
 
 1. keep the tractor in good operating condition for your safety.
 

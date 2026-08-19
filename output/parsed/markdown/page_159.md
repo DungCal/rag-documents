@@ -1,6 +1,6 @@
 ## 1. BEFORE USING THE PRODUCT
 
-## BEFORE USING THE PRODUCT
+### BEFORE USING THE PRODUCT
 
 - Please read the manual carefully before using the product.
 

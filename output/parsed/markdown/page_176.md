@@ -1,4 +1,4 @@
-## SPEAKER VOLUME ADJUSTMENT
+#### SPEAKER VOLUME ADJUSTMENT
 
 ![](81687cb276b0fbe04a786542db9176bae889d990ba57551d89a88d1d43c0ee2d.jpg)
 
@@ -18,7 +18,7 @@ Turn on/off internal speaker, or adjust the sound volume.
 
 ⑦ Increase a step of phone call volume.
 
-## SCREEN BRIGHTNESS ADJUSTMENT
+#### SCREEN BRIGHTNESS ADJUSTMENT
 
 ![](80ac3d2404326b154d30ea15aabc2941e6981dd1a17a65124d406e12d0e60466.jpg)
 

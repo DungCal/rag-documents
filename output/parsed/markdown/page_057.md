@@ -16,7 +16,7 @@ F: Full
 
 - E: Empty
 
-## IMPORTANT
+#### IMPORTANT
 
 - Poor fuel quality can damage the engine. Make sure to use only the specified genuine diesel fuel.
 

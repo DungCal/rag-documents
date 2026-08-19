@@ -1,0 +1,11 @@
+## 1. EXTERIOR VIEW
+
+### ▶ RIGHT SIDE OF THE TRACTOR
+
+![](77300ab459bd23cbb078cad1fc207f546cac400ea87bce4ff2e3ced5419dbdbc.jpg)
+### ▶ LEFT SIDE OF THE TRACTOR
+
+![](f6742a856a8ca26f79822a5fbca2da1e0eb13c5f4d88379ab7eced90821d149f.jpg)
+### ▶ BACK SIDE OF THE TRACTOR
+
+![](8e9e686cdadf8fefa2c7dac4ea0c989ee3227f70ce55b9ba23e68e7e3463de9b.jpg)

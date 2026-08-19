@@ -21,7 +21,7 @@ Turn the dial ① to the position ②.
 
 ![](889251e39a471618091005e9aaa98d5ee44aab67ece077faad4305c14a609e0a.jpg)
 
-## WARNING
+#### WARNING
 
 - The high beam can obstruct the view of other drivers coming in the opposite direction on a road, leading to an unexpected accident.
 
@@ -35,6 +35,6 @@ Follow the below to operate turn signal lamp while the electric circuit is on.
 
 ![](c578245a698cc4901912e312c1c2f21fb04262ca91be472fe2a9168c361abe16.jpg)
 
-## CAUTION
+#### CAUTION
 
 - This lever is not automatically returned to the neutral position. Therefore set it back to the neutral position after a turn.

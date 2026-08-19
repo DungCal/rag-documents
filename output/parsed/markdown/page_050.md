@@ -36,7 +36,7 @@ Press the start switch of the remote key more than 2 sec, then LED lamp blinks o
 
 The parking brake should be applied to use remote engine stop function.
 
-## + IMPORTANT
+#### + IMPORTANT
 
 - The engine will stop when the start switch is pressed whether the remote key is near to the tractor or not.
 

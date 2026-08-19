@@ -1,6 +1,6 @@
 ![](5842781564b0556006c0b769bbf6511687289bc7f8e39708525b78aa7b5ae240.jpg)
 
-## <Changing>
+#### <Changing>
 
 1. Unscrew the drain plug on the lower section of the transmission to drain contaminated transmission fluid.
 
@@ -10,12 +10,12 @@ Since hot fluid flows out of the engine first, be careful not to get burnt.
 
 3. Add the specified amount of the specified transmission fluid through the filler hole.
 
-## CAUTION
+#### CAUTION
 
 - If transmission fluid gets on your skin, it can irritate the skin and cause a skin condition.
 Make sure to clean your skin with soap and water or hand cleaner thoroughly.
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not add fluid over the upper limit level.
 
@@ -29,7 +29,7 @@ Make sure to clean your skin with soap and water or hand cleaner thoroughly.
 
 ![](2cdacf445778d898ce99feb59c8e9557cc3c693b3b411a80438523b3123bc629.jpg)
 
-## <Inspection>
+#### <Inspection>
 
 1. Unscrew the drain plug on bottom of the front axle and each side of wheels.
 

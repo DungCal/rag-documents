@@ -36,6 +36,6 @@ Table 1 – Technical data
 
 ![](ef5d47b0fb6821828ef287bc3151a611327dfef237c3d184cbd1715aae383f0e.jpg)
 
-## DANGER
+#### DANGER
 
 - Use all the personal protective equipment suitable for the tasks in hand and relative substances, in compliance with the requirements of statutory legislation in your country.

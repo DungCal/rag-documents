@@ -1,18 +1,18 @@
-## <Detent type>
+#### <Detent type>
 
 When pushing or pulling the 1st and 2nd hydraulic levers into the operating position, the levers remain in that position so there is no need to continue holding onto them, thereby making this type suitable for hydraulic motors etc. which require long operating time.
 
-## <Automatic return type>
+#### <Automatic return type>
 
 When the 3rd hydraulic lever is pushed or pulled into the operating position and then released again, it automatically returns to its original position and shuts off the hydraulic pressure.
 
-## <Auto kick out function>
+#### <Auto kick out function>
 
 A function which performs an automatic return in the event that a problem occurs with the hydraulic pressure while the lever is in position.
 
 ![](b6ee84ac7ab94bb96f7ca05bce258062f871ab60c849cebdaa97d1855f5cb77d.jpg)
 
-## WARNING
+#### WARNING
 
 - When not using the hydraulic implement, be sure to keep the detent valve control lever in the central position. In the event that the detent valve is left in the operating position while the vehicle is not in use for an extended period of time, the relief valve remains open and various hydraulic components such as oil seals and O-rings can be thermally damaged as the temperature of the hydraulic fluid rises.
 

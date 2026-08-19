@@ -1,4 +1,4 @@
-## FAVORITE CONTACT LIST
+#### FAVORITE CONTACT LIST
 
 ![](24d714a4a41834741557187c45165c4816a225ba491c4948cacd5adb74e78168.jpg)
 
@@ -8,7 +8,7 @@ Pop-up window appears when you tap the 'Edit List' button.
 
 ② Toggle star mark to add / remove the item into / from favorite contact list.
 
-## DIAL KEYPAD
+#### DIAL KEYPAD
 
 ![](cd13107caf60213d88851b6f78f223fd493d884ea04800873b1773f8cc7313bf.jpg)
 

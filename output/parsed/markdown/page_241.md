@@ -2,7 +2,7 @@
 
 The warranty is subject to the following conditions:
 
-## DEUTZ Responsibilities:
+#### DEUTZ Responsibilities:
 
 During the Federal emission warranty period, if a defect in material or workmanship of an emission-related component is found, DEUTZ will provide:
 
@@ -12,7 +12,7 @@ During the Federal emission warranty period, if a defect in material or workmans
 
 This includes labor to remove and install the engine, if necessary.
 
-## Owner Responsibilities:
+#### Owner Responsibilities:
 
 If you have any questions regarding your warranty rights and responsibilities or the location of the nearest authorized dealer or distributor, you should contact the DEUTZ Service Desk at 1-800-241-9886.
 During the Federal emission warranty period the owner is responsible for:

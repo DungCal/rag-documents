@@ -6,7 +6,7 @@ The ambient temperature at the installation site or in the application area of t
 
 ![](7a6c0d793e9bfd9f2ea23998b984f9ace0b793e2162baf8dfdbd187385c90a35.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - The prescribed lubricating oil quality must be observed when selecting the viscosity class.
 

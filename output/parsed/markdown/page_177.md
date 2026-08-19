@@ -10,7 +10,7 @@ Change UI theme of the touch monitor.
 
 ③ In auto theme, UI theme changes automatically depending on ambient brightness.
 
-## TIME SETTING
+#### TIME SETTING
 
 ![](8022c2aef2a5bab7916208e3b9622f66e1d749e47c1c81bb5866e4c051a543b8.jpg)
 

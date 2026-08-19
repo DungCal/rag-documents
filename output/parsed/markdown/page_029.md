@@ -8,7 +8,7 @@ Always take into consideration the total weight of the implements and their load
 
 ![](601b2fca8a6fc1db59db598a58aea4adaa55a17366f36b228f8da98f7a83883a.jpg)
 
-## CAUTION
+#### CAUTION
 
 - Before you leave the driving seat when a trailers is hitched to the tractor, remember to put all the controls in neutral, apply the parking brake, switch off the engine, engage first gear (if the tractor has a mechanical transmission) and remove the key from the starter switch.
 

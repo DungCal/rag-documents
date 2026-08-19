@@ -1,6 +1,6 @@
 ![](a994e630dd0913232fd49f279576e3b490bf85c6a7311fee5742fcb152900fec.jpg)
 
-## <Changing>
+#### <Changing>
 
 1. Unscrew the drain plugs on the bottom of the front axle and each side of wheels.
 
@@ -14,7 +14,7 @@ Since hot fluid flows out of the engine first, be careful not to get burnt.
 
 ![](5651a4b3c2f2e043b245558a0b9b3361d88098cdb22b57a923ebca26559d637b.jpg)
 
-## CAUTION
+#### CAUTION
 
 - If oil gets on your skin, it can irritate the skin and cause a skin condition.
 
@@ -26,7 +26,7 @@ Oil is very hot and can cause a burn if changing oil right after the engine is s
 
 ![](9160fc13c0cc94eb0bb6b47c208efc7f7230694d1471b67fa6fb7cbec5010b26.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not add front axle oil over the upper limit level.
 

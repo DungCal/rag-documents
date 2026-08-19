@@ -1,6 +1,6 @@
 ![](9a07d17831e31967ffa841696346be668608387aa0e2f6bf858f32a1f78a3d95.jpg)
 
-## <Charging>
+#### <Charging>
 
 1. Turn the ignition switch to the "OFF" position and remove the battery from the tractor.
 

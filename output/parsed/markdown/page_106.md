@@ -10,7 +10,7 @@ The engine will shut-off if the operator leaves the seat with parking brake rele
 
 ![](c7c0bc42e878dbf42b89d1b05b95adc7715525371143849d5c083c31d0db7653.jpg)
 
-## WARNING
+### WARNING
 
 - To avoid damage of transmission and implement, do not engage PTO with the engine running at high speed.
 
@@ -24,11 +24,11 @@ The engine will shut-off if the operator leaves the seat with parking brake rele
 
 ![](be2bb610d566ecc5e84c0998c8673aab1848f72a7eea0b358aa6a06ec78fe470.jpg)
 
-## PTO SWITCH
+#### PTO SWITCH
 
 ![](c33b58094cbab97b666cfc7a398e63d77bb8543937fbf7756083b50e7fa0773d.jpg)
 
-## PTO AUTO SWITCH
+#### PTO AUTO SWITCH
 
 Follow next steps to use PTO.
 
@@ -40,11 +40,11 @@ Follow next steps to use PTO.
 
 4. Increase engine speed to desired speed.
 
-## PTO LAMP
+#### PTO LAMP
 
 ![](29f597637d9d93c3c61a07f3647c567b5d495982f4cd410d966da2a500ac1f69.jpg)
 
-## PTO LAMP
+#### PTO LAMP
 
 PTO monitor lamp indicates the state of the PTO shaft.
 

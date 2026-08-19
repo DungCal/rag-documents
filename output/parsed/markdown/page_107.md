@@ -21,7 +21,7 @@ The PTO will start rotating instantaneously when the implement is lowered to the
 
 ![](0a84df8e3b31eaa23fa91125bcb01cb0dfc7e10722a892b8213fd49e5762c75e.jpg)
 
-## WARNING
+#### WARNING
 
 - When the PTO auto switch is in manual position the PTO does not stop rotating. If working on hard soils, pavements with a rotary implement the PTO switch must be put to the OFF position to stop the PTO from rotating.
 

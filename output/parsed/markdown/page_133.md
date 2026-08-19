@@ -1,6 +1,6 @@
 ![](c143853febb235f01a9dceef392976b7ac74b7f755036e3c647a0a6099288088.jpg)
 
-## <Changing>
+#### <Changing>
 
 1. Ensure that the engine is stopped before changing oil.
 
@@ -18,13 +18,13 @@
 
 ![](48e0bba08620f46be15b2eafe83a765a9f3fc3baea74951765bf6c2802e841e1.jpg)
 
-## CAUTION
+#### CAUTION
 
 - If engine oil gets on your skin, it can irritate the skin and cause a skin condition. Make sure to clean your skin with soap and water or hand cleaner thoroughly.
 
 ![](4a56271566caa1815abfefe36bde1daf10b58796d4b7cfa9a8f77256a40b0792.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - Do not add engine oil over the upper limit level.
 
@@ -36,7 +36,7 @@
 
 ![](90b71ca6b4e4f7fabe364b3148e4e258fc7ec6eb4d20a2a7ae69c69a80202631.jpg)
 
-## <Inspection>
+#### <Inspection>
 
 Perform inspection while the engine is stopped.
 

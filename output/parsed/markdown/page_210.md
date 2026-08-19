@@ -18,7 +18,7 @@ You can change the current PIN code.
 
 The login process will be skipped when Auto Login is activated.
 
-## NOTICE
+#### NOTICE
 
 ![](f2d1244f8dbe44c0c8f6e0996ceeb95a7477d619b1f6a01bc892dc99461cb8b1.jpg)
 

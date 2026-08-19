@@ -18,10 +18,10 @@ This lever is used to select the driving direction between forward and reverse d
 
 - With the lever pulled up slightly (Feeling is a slight spring tension), push it forward Ⓐ to select forward driving, or pull it backward to ⓑ to select reverse driving.
 
-## WARNING
+#### WARNING
 
 ● Before starting the engine, set the shuttle lever in the neutral position and depress the clutch pedal fully to avoid an accident by abrupt starting off.
 
-## + IMPORTANT
+#### + IMPORTANT
 
 - The shuttle lever consist of electric components, so forcible operation can damage the lever.

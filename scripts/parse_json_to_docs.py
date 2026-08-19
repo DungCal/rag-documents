@@ -11,9 +11,10 @@ HEADER_RE = re.compile(r"^[A-Z]\.?\s")
 SECTION_RE = re.compile(r"^\d+\.\s")
 CAPTION_RE = re.compile(r"^▶\s")
 BULLET_RE = re.compile(r"^[•\-\*]\s")
+ADMONITION_WORDS = {"IMPORTANT", "WARNING", "DANGER", "CAUTION", "NOTE"}
 
 
-def detect_header_level(text: str) -> int:
+def detect_header_level(text: str, prev_level: int = 2) -> int:
     t = text.strip()
     if HEADER_RE.match(t):
         return 1
@@ -23,11 +24,11 @@ def detect_header_level(text: str) -> int:
         return 3
     if BULLET_RE.match(t):
         return 4
-    return 2
+    return min(prev_level + 1, 4)
 
 
-def block_header(text: str) -> str:
-    return "#" * detect_header_level(text) + " " + text.strip()
+def block_header(text: str, level: int = 2) -> str:
+    return "#" * level + " " + text.strip()
 
 
 def extract_spans(block: dict) -> list[str]:
@@ -89,17 +90,19 @@ def html_table_to_md(html: str) -> str:
     return "\n".join(out)
 
 
-def extract_lines(block: dict) -> list[str]:
+def extract_lines(block: dict, state: dict) -> list[str]:
     texts = []
     btype = block.get("type")
     if btype == "title":
         for t in extract_spans(block):
-            texts.append(block_header(t))
+            level = detect_header_level(t, state["last_level"])
+            state["last_level"] = level
+            texts.append(block_header(t, level))
     elif btype == "text":
         texts.extend(extract_spans(block))
     elif btype == "list":
         for sub in block.get("blocks", []):
-            texts.extend(extract_lines(sub))
+            texts.extend(extract_lines(sub, state))
     elif btype == "table":
         for sub in block.get("blocks", []):
             for line in sub.get("lines", []):
@@ -123,7 +126,9 @@ def extract_lines(block: dict) -> list[str]:
             stype = sub.get("type")
             if stype == "image_caption":
                 for t in extract_spans(sub):
-                    texts.append(block_header(t))
+                    level = detect_header_level(t, state["last_level"])
+                    state["last_level"] = level
+                    texts.append(block_header(t, level))
             elif stype == "image_footnote":
                 texts.extend(extract_spans(sub))
             elif stype == "image_body":
@@ -162,11 +167,11 @@ def extract_metadata(page: dict, source: str) -> dict:
     return md
 
 
-def page_to_document(page: dict, source: str) -> Document:
+def page_to_document(page: dict, source: str, state: dict) -> Document:
     blocks = page.get("para_blocks") or page.get("preproc_blocks") or []
     parts = []
     for b in blocks:
-        parts.extend(extract_lines(b))
+        parts.extend(extract_lines(b, state))
     content = "\n\n".join(p for p in parts if p.strip())
     return Document(
         page_content=content,
@@ -182,7 +187,8 @@ def json_to_documents(json_path: str, limit: int | None = None) -> list[Document
     pages = data["pdf_info"]
     if limit is not None:
         pages = pages[:limit]
-    docs = [page_to_document(p, source) for p in pages]
+    state = {"last_level": 2}
+    docs = [page_to_document(p, source, state) for p in pages]
     return docs
 
 

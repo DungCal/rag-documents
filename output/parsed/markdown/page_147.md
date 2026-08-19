@@ -8,14 +8,14 @@
 
 ![](293d60ca9d41274c0ff0fbc0d5cde9f8452c12696cfe70c105aa890f300d156f.jpg)
 
-## WARNING
+#### WARNING
 
 - If using fuses other than the specified, wirings can be overheated, leading to a fire.
 Never use a fuse with different capacity. Also, never use a steel wire or foil instead of a fuse.
 
 ![](f3266ad8226dab054776b93981bf8e3bb0a56c3b735cacb652ec2a645918e178.jpg)
 
-## (2) Slow-blow fuse
+#### (2) Slow-blow fuse
 
 This tractor has 1 slow-blow fuse installed to its wirings (1 for battery positive terminal).
 

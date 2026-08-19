@@ -11,9 +11,9 @@ During the term of this warranty DEUTZ will provide, through a DEUTZ distributor
 
 In an emergency, repairs may be performed at any facility, or by the owner, using any replacement part.
 
-## DEUTZ AG
+#### DEUTZ AG
 
-## DEUTZ Corporation
+#### DEUTZ Corporation
 
 3883 Steve Reynolds Blvd. | Norcross, GA 30093 Phone: 770-564-9886 | Fax: 770-564-7222
 

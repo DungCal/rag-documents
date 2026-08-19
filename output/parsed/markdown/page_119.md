@@ -6,7 +6,7 @@ When installing for loader, the loader should be facing up, but a loader the lef
 
 ![](b22c166767a3d0099b7097dadf208df615a9f28acc081aefbaa67993389070f2.jpg)
 
-## WARNING
+#### WARNING
 
 - When connecting the hydraulic pipes, set them according to the operating directions specified on the label attached to the side of the joystick lever.
 
@@ -14,7 +14,7 @@ When installing for loader, the loader should be facing up, but a loader the lef
 
 ![](046825a20fe043ee8d0c584bbc43473771179dab5576af3e1e2c749e813f921a.jpg)
 
-## IMPORTANT
+#### IMPORTANT
 
 - If it is hard to steer the tractor for plowing as the front wheels are lifted, install additional weight to the front. (if no loader is installed.)
 

@@ -22,7 +22,7 @@ When the engine is started, release the switch.
 
 7. Ensure that all warning lamps go off.
 
-## IMPORTANT
+#### IMPORTANT
 
 ● Avoiding running the start motor over 10 second. It consumes lots of current.
 
@@ -34,7 +34,7 @@ When the engine is started, release the switch.
 
 - The engine will stop if operator do not press the clutch pedal or change the shuttle lever with smart key within 10 minute right after the engine started with the remote key.
 
-## WARNING
+#### WARNING
 
 - Never start the engine by connecting start motor terminal or safety switch directly.
 The tractor may move suddenly and cause an accident.
@@ -43,7 +43,7 @@ The tractor may move suddenly and cause an accident.
 
 ![](45b07c53d380216ed0f167300bcbcf319f6600ed72e5a351e732a085b31423b1.jpg)
 
-## PREHEAT LAMP
+#### PREHEAT LAMP
 
 When the electric circuit is ON, the engine is automatically preheated as necessary.
 

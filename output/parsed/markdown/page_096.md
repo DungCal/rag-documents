@@ -1,6 +1,6 @@
 ![](f160066431ac7134cfffca377296f2cdbeb5a8d654dd2b40fb2e95a7c3f261ce.jpg)
 
-## <how to use the air conditioner>
+#### <how to use the air conditioner>
 
 1. To use the A/C, turn the temperature control dial counterclockwise.
 
@@ -18,7 +18,7 @@ step).
 
 ![](69b3362fccfd37a1c0cb993ce36b54f36b61e4f42bda9c1ca27465b9c3926b98.jpg)
 
-## <Cautions for using the air conditioner>
+#### <Cautions for using the air conditioner>
 
 1. This air conditioner uses new refrigerant, R134-a.
 
@@ -32,7 +32,7 @@ Make sure to check the refrigerant type before adding it.
 
 5. force to it.
 
-## WARNING
+#### WARNING
 
 - Ventilate the cabin periodically when working in the cabin with the A/C or heater ON for an extended period of time to avoid suffocation.
 
@@ -40,7 +40,7 @@ Make sure to check the refrigerant type before adding it.
 
 - If refrigerant gets on your skin, you can get burnt severely. Therefore, any system service should be performed by qualified technicians.
 
-## + IMPORTANT
+#### + IMPORTANT
 
 - If operating the A/C without refrigerant, the compressor is not sufficiently lubricated, resulting in mechanical failure.
 

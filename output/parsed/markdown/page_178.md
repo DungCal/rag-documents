@@ -1,4 +1,4 @@
-## SOFTWARE UPDATE
+#### SOFTWARE UPDATE
 
 ![](ce15f9869f637a12739a9e401d178db91be211ec46bdebf26a8e9d630361887d.jpg)
 
@@ -8,7 +8,7 @@ Update the touch monitor to improve the stability and functionality of the touch
 
 ⚠ Update button is shown when newer version of software is available.
 
-## CAMERA SETTING
+#### CAMERA SETTING
 
 ![](8a2c1047c6bb3099d71073981595311385e3ab5eff3809dcd77570e9427c5d84.jpg)
 

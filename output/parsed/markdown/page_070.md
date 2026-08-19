@@ -18,7 +18,7 @@ This can turn on or off APS(Auto Power Shift) function.
 
 - OFF: Operator controls main shift manually.
 
-## IMPORTANT
+#### IMPORTANT
 
 - APS function only works when sub shift is in ‘H’ position.
 

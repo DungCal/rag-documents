@@ -8,7 +8,7 @@ Therefore, such parts should be replaced with their tightening bands every 2 yea
 
 ![](0ba0af01d61552724292b40b110443f6fb6ccea6ad6672587e23efebf700379b.jpg)
 
-## DANGER
+#### DANGER
 
 - When charging the battery after removing it from the tractor, it produces hydrogen gas, presenting a fire risk. Charge the battery only in a well-ventilated area.
 
@@ -22,7 +22,7 @@ If you swallowed it, drink a lot of water. Also, get medical attention immediate
 
 - If keeping using or charging the battery with its electrolyte level below the “LOWER LEVEL” mark, it can lead to battery damage or even explosion.
 
-## <Checking>
+#### <Checking>
 
 1. Checking battery charging level
 

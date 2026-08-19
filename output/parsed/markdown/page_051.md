@@ -41,6 +41,6 @@ Also, the turn signal lamp function is disabled while the hazard flasher is acti
 
 - Position B: The hazard flasher is activated and turn signal lamps on the cluster blink as well.
 
-## IMPORTANT
+#### IMPORTANT
 
 - To prevent the battery running out, use it only when it is need.

@@ -22,7 +22,7 @@ To shift during driving, depress the brake pedal to stop the vehicle in advance.
 
 ![](52dd2e7ee8d843eb6195c96bdba2c33e7db5022fdddbfb976e2958bdee68e23d.jpg)
 
-## WARNING
+#### WARNING
 
 - The driving speed in the reverse direction is almost the same to the speed in the forward direction.
 
@@ -52,7 +52,7 @@ Turn steering wheel to desired direction.
 
 ![](9ec09560156c5ba6cdcaee2c7b9e26829465b86452487e5855038622519bd6c9.jpg)
 
-## WARNING
+#### WARNING
 
 - Avoid turning at a high speed. The tractor can fall on its side.
 

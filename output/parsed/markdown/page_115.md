@@ -16,7 +16,7 @@
 
 ![](de26ea61a7afb96fdf03c75a0efde8cc8635526bf548e212cc17b6ed2437f22d.jpg)
 
-## WARNING
+#### WARNING
 
 - Read instructions on warning decals on each implement thoroughly before work.
 
@@ -26,7 +26,7 @@
 
 ### ▶ GENERAL IMPLEMENT
 
-## <Safety precautions for rotavator>
+#### <Safety precautions for rotavator>
 
 Never remove the safety cover of the rotavator.
 
