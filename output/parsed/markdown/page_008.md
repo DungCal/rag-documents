@@ -1,0 +1,3 @@
+### ▶ LEFT SIDE OF THE TRACTOR
+
+![](f6742a856a8ca26f79822a5fbca2da1e0eb13c5f4d88379ab7eced90821d149f.jpg)
