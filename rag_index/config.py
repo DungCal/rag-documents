@@ -13,4 +13,8 @@ BGE_M3_MODEL = os.getenv("BGE_M3_MODEL", "BAAI/bge-m3")
 CHUNKS_DIR = "output/parsed/chunks"
 INDEX_JSONL = "output/parsed/chunks/index.jsonl"
 EMBEDDING_DIM = 1024
-METRIC = "cosine"
+METRIC = "dotproduct"
+
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+LOG_FILE = os.getenv("LOG_FILE", "logs/indexing.log")
+LOG_TO_FILE = os.getenv("LOG_TO_FILE", "true").lower() in ("1", "true", "yes")

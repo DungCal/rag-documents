@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 from . import config
+from .logging_config import logger
 
 HEADING3_RE = re.compile(r"^###\s+(.+)$")
 HEADING2_RE = re.compile(r"^##\s+(.+)$")
@@ -79,10 +80,25 @@ def split_section_at_h3(section: dict) -> list[dict]:
 def build_all_chunks() -> list[dict]:
     """Build the full chunk set: special chunks kept as-is, sections split at ###."""
     records = load_index_records(config.INDEX_JSONL)
+    logger.info("Loaded %d index records from %s", len(records), config.INDEX_JSONL)
     chunks: list[dict] = []
     for doc in load_chunks(records):
         if doc.get("chunk_type") == "section":
-            chunks.extend(split_section_at_h3(doc))
+            parts = split_section_at_h3(doc)
+            if len(parts) > 1:
+                logger.debug("Split %s -> %d h3 sub-chunks", doc.get("chunk_file"), len(parts))
+            chunks.extend(parts)
         else:
             chunks.append(doc)
+
+    total = len(chunks)
+    for i, chunk in enumerate(chunks, 1):
+        logger.info(
+            "Chunk %d/%d: %s (type=%s, level=%s)",
+            i,
+            total,
+            chunk.get("chunk_file"),
+            chunk.get("chunk_type"),
+            chunk.get("heading_level"),
+        )
     return chunks

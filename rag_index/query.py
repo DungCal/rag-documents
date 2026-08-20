@@ -14,7 +14,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("query", nargs="?", default=None)
     parser.add_argument("--top-k", type=int, default=10)
-    parser.add_argument("--merge", action="store_true", default=True)
+    parser.add_argument("--merge", action=argparse.BooleanOptionalAction, default=True)
     args = parser.parse_args()
 
     query = args.query or sys.stdin.read().strip()

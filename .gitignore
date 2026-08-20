@@ -5,3 +5,4 @@
 /mineru-models-clone
 .venv/
 .env
+logs/

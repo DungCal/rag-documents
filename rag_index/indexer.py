@@ -1,7 +1,10 @@
+import time
+
 from pinecone import Pinecone, ServerlessSpec
 from pinecone_text.sparse import SpladeEncoder
 
 from . import config
+from .logging_config import logger
 
 
 def _slugify(text: str) -> str:
@@ -48,7 +51,7 @@ class PineconeIndexer:
                     cloud="aws",
                     region=config.PINECONE_ENVIRONMENT or "us-east-1",
                 ),
-                vector_type="hybrid",
+                vector_type="dense",
             )
         return name
 
@@ -61,13 +64,18 @@ class PineconeIndexer:
     ) -> dict:
         name = self.ensure_index(index_name)
         idx = self.pc.Index(name)
+        logger.info("Upserting %d chunks into index '%s' (namespace=%r)", len(chunks), name, namespace)
 
         vectors = []
-        for chunk, emb in zip(chunks, embeddings):
+        total = len(chunks)
+        for i, (chunk, emb) in enumerate(zip(chunks, embeddings), 1):
+            start = time.perf_counter()
             sparse = _sparse_values(self.splade, chunk.get("content", ""))
+            elapsed = time.perf_counter() - start
+            cid = _slugify(chunk["chunk_file"])
             vectors.append(
                 {
-                    "id": _slugify(chunk["chunk_file"]),
+                    "id": cid,
                     "values": emb,
                     "sparse_values": sparse,
                     "metadata": _clean_metadata(
@@ -85,4 +93,17 @@ class PineconeIndexer:
                     ),
                 }
             )
-        return idx.upsert(vectors=vectors, namespace=namespace)
+            logger.info(
+                "Upserting chunk %d/%d: id=%s, sparse_dim=%d, took=%.3fs",
+                i,
+                total,
+                cid,
+                len(sparse["indices"]),
+                elapsed,
+            )
+
+        start = time.perf_counter()
+        resp = idx.upsert(vectors=vectors, namespace=namespace)
+        elapsed = time.perf_counter() - start
+        logger.info("Pinecone upsert response: %s (took=%.3fs)", resp, elapsed)
+        return resp
