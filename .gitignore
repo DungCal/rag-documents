@@ -3,3 +3,5 @@
 /output/test-pipeline
 /output/pipeline-test
 /mineru-models-clone
+.venv/
+.env
