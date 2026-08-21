@@ -1,23 +1,24 @@
 """Index all hierarchical chunks from output/parsed/chunks into Pinecone.
 
 Usage:
-    python -m rag_index.index [--limit N]
+    python -m rag_index.index [--index-type {hybrid,dense}] [--limit N]
 """
 import argparse
 import time
 
 from .chunker import build_all_chunks
 from .embedder import BGE_M3_Embedder
-from .indexer import PineconeIndexer
+from .indexer import DenseIndexer, PineconeIndexer
 from .logging_config import logger
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--index-type", choices=["hybrid", "dense"], default="hybrid")
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
 
-    logger.info("=== Pipeline START ===")
+    logger.info("=== Pipeline START (index-type=%s) ===", args.index_type)
     pipeline_start = time.perf_counter()
 
     t0 = time.perf_counter()
@@ -42,7 +43,7 @@ def main() -> None:
     )
 
     embedder = BGE_M3_Embedder()
-    indexer = PineconeIndexer()
+    indexer = DenseIndexer() if args.index_type == "dense" else PineconeIndexer()
 
     t0 = time.perf_counter()
     logger.info("Embedding %d chunks with BGE-M3 ...", len(texts))

@@ -7,6 +7,7 @@ load_dotenv()
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "")
 PINECONE_ENVIRONMENT = os.getenv("PINECONE_ENVIRONMENT", "")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "tractor-manual-hierarchical")
+PINECONE_DENSE_INDEX_NAME = os.getenv("PINECONE_DENSE_INDEX_NAME", "rag-documents-ubuntu-dense")
 HF_TOKEN = os.getenv("HF_TOKEN", None)
 BGE_M3_MODEL = os.getenv("BGE_M3_MODEL", "BAAI/bge-m3")
 

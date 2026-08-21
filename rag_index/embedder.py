@@ -44,7 +44,9 @@ class BGE_M3_Embedder:
     def __init__(self, token: str | None = None, model: str | None = None):
         self.token = token or config.HF_TOKEN
         self.model = model or config.BGE_M3_MODEL
-        self.client = InferenceClient(model=self.model, token=self.token)
+        # Per-request timeout so a hung connection fails into the retry path
+        # instead of blocking forever.
+        self.client = InferenceClient(model=self.model, token=self.token, timeout=60.0)
 
     def embed(self, text: str) -> list[float]:
         if not text:

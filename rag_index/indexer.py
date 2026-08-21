@@ -1,10 +1,14 @@
 import time
 
 from pinecone import Pinecone, ServerlessSpec
+from pinecone.errors import PineconeError
 from pinecone_text.sparse import SpladeEncoder
 
 from . import config
 from .logging_config import logger
+
+UPSERT_BATCH_SIZE = 100
+UPSERT_MAX_RETRIES = 5
 
 
 def _slugify(text: str) -> str:
@@ -30,6 +34,39 @@ def _clean_metadata(metadata: dict) -> dict:
         else:
             cleaned[k] = v
     return cleaned
+
+
+def _upsert_with_retry(idx, vectors: list[dict], namespace: str) -> dict:
+    """Upsert one batch with exponential backoff on transient Pinecone errors."""
+    last_exc: Exception | None = None
+    for attempt in range(UPSERT_MAX_RETRIES):
+        try:
+            return idx.upsert(vectors=vectors, namespace=namespace)
+        except PineconeError as e:
+            last_exc = e
+            if attempt < UPSERT_MAX_RETRIES - 1:
+                delay = 2.0 * (2**attempt) + (time.perf_counter() % 1.0)
+                logger.warning(
+                    "Upsert failed (%s), retry %d/%d in %.1fs",
+                    str(e)[:120], attempt + 1, UPSERT_MAX_RETRIES, delay,
+                )
+                time.sleep(delay)
+    raise last_exc
+
+
+def _upsert_in_batches(idx, vectors: list[dict], namespace: str) -> dict:
+    """Upsert vectors in batches to stay under request-size limits."""
+    total_resp = {"upserted_count": 0}
+    total = len(vectors)
+    for start in range(0, total, UPSERT_BATCH_SIZE):
+        batch = vectors[start : start + UPSERT_BATCH_SIZE]
+        resp = _upsert_with_retry(idx, batch, namespace)
+        total_resp["upserted_count"] += resp.get("upserted_count", 0)
+        logger.info(
+            "Upserted batch %d-%d/%d (upserted_count=%s)",
+            start + 1, start + len(batch), total, resp.get("upserted_count"),
+        )
+    return total_resp
 
 
 class PineconeIndexer:
@@ -103,7 +140,77 @@ class PineconeIndexer:
             )
 
         start = time.perf_counter()
-        resp = idx.upsert(vectors=vectors, namespace=namespace)
+        resp = _upsert_in_batches(idx, vectors, namespace)
+        elapsed = time.perf_counter() - start
+        logger.info("Pinecone upsert response: %s (took=%.3fs)", resp, elapsed)
+        return resp
+
+
+class DenseIndexer:
+    """Create/use a dense-only Pinecone index and upsert chunk vectors without sparse values."""
+
+    def __init__(self, api_key: str | None = None):
+        self.api_key = api_key or config.PINECONE_API_KEY
+        self.pc = Pinecone(api_key=self.api_key)
+
+    def ensure_index(self, index_name: str | None = None) -> str:
+        name = index_name or config.PINECONE_DENSE_INDEX_NAME
+        if name not in self.pc.list_indexes().names():
+            self.pc.create_index(
+                name=name,
+                dimension=config.EMBEDDING_DIM,
+                metric=config.METRIC,
+                spec=ServerlessSpec(
+                    cloud="aws",
+                    region=config.PINECONE_ENVIRONMENT or "us-east-1",
+                ),
+                vector_type="dense",
+            )
+        return name
+
+    def upsert_chunks(
+        self,
+        chunks: list[dict],
+        embeddings: list[list[float]],
+        namespace: str = "",
+        index_name: str | None = None,
+    ) -> dict:
+        name = self.ensure_index(index_name)
+        idx = self.pc.Index(name)
+        logger.info("Upserting %d chunks into dense index '%s' (namespace=%r)", len(chunks), name, namespace)
+
+        vectors = []
+        total = len(chunks)
+        for i, (chunk, emb) in enumerate(zip(chunks, embeddings), 1):
+            cid = _slugify(chunk["chunk_file"])
+            vectors.append(
+                {
+                    "id": cid,
+                    "values": emb,
+                    "metadata": _clean_metadata(
+                        {
+                            "chunk_file": chunk.get("chunk_file"),
+                            "chunk_type": chunk.get("chunk_type"),
+                            "heading_level": chunk.get("heading_level"),
+                            "heading": chunk.get("heading"),
+                            "parent_heading": chunk.get("parent_heading"),
+                            "parent_chunk_file": chunk.get("parent_chunk_file"),
+                            "content": chunk.get("content"),
+                            "page_numbers": chunk.get("page_numbers"),
+                            "sources": chunk.get("sources"),
+                        }
+                    ),
+                }
+            )
+            logger.info(
+                "Upserting chunk %d/%d: id=%s (dense-only)",
+                i,
+                total,
+                cid,
+            )
+
+        start = time.perf_counter()
+        resp = _upsert_in_batches(idx, vectors, namespace)
         elapsed = time.perf_counter() - start
         logger.info("Pinecone upsert response: %s (took=%.3fs)", resp, elapsed)
         return resp
