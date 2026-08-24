@@ -19,3 +19,4 @@ METRIC = "dotproduct"
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 LOG_FILE = os.getenv("LOG_FILE", "logs/indexing.log")
 LOG_TO_FILE = os.getenv("LOG_TO_FILE", "true").lower() in ("1", "true", "yes")
+QUERY_LOG_FILE = os.getenv("QUERY_LOG_FILE", "logs/query.log")

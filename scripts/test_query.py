@@ -13,10 +13,12 @@ import argparse
 import json
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from rag_index.logging_config import query_logger  # noqa: E402
 from rag_index.searcher import DenseSearcher, HybridSearcher  # noqa: E402
 
 TEST_QUERIES = [
@@ -33,6 +35,53 @@ TEST_QUERIES = [
 ]
 
 CONTENT_SNIPPET_LEN = 160
+
+
+def log_test_query(
+    qi: int,
+    query: str,
+    index_type: str,
+    merge: bool,
+    top_k: int,
+    elapsed: float,
+    status: str,
+    results: list,
+) -> None:
+    entry = {
+        "timestamp": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "source": "test_query",
+        "test_index": qi,
+        "status": status,
+        "query": query,
+        "index_type": index_type,
+        "merge": merge,
+        "top_k": top_k,
+        "elapsed_seconds": round(elapsed, 3),
+        "num_results": len(results),
+        "results": [],
+    }
+    for rank, r in enumerate(results, 1):
+        md = r["metadata"]
+        entry["results"].append(
+            {
+                "rank": rank,
+                "score": r["score"],
+                "heading": md.get("heading"),
+                "heading_level": md.get("heading_level"),
+                "chunk_type": md.get("chunk_type"),
+                "chunk_file": md.get("chunk_file"),
+                "parent_chunk_file": md.get("parent_chunk_file"),
+                "page_numbers": md.get("page_numbers"),
+                "sources": md.get("sources"),
+                "merged": r.get("merged", False),
+                "num_merged": r.get("num_merged", 1),
+                "content": md.get("content", ""),
+            }
+        )
+    try:
+        query_logger.info(json.dumps(entry, indent=2, ensure_ascii=False) + "\n")
+    except Exception as exc:
+        print(f"warning: failed to write query log: {exc}", file=sys.stderr)
 
 
 def print_result(rank: int, r: dict) -> None:
@@ -72,6 +121,7 @@ def main() -> int:
 
         status = "OK" if results else "NO HITS"
         print(f"[{qi}/{len(TEST_QUERIES)}] {status} ({elapsed:.2f}s) {query!r}")
+        log_test_query(qi, query, args.index_type, not args.no_merge, args.top_k, elapsed, status, results)
         if not results:
             failures.append(query)
             continue
