@@ -178,3 +178,15 @@ services:
             - driver: nvidia
               device_ids: ["0"]  # Modify for multiple GPUs: ["0", "1"]
               capabilities: [gpu]
+
+  pinecone:
+    image: ghcr.io/pinecone-io/pinecone-local:latest
+    container_name: pinecone-local
+    restart: unless-stopped
+    profiles: ["pinecone"]
+    environment:
+      PORT: 5080
+      PINECONE_HOST: localhost
+    ports:
+      - "5080-5090:5080-5090"
+    platform: linux/amd64

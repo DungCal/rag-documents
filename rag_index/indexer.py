@@ -72,23 +72,54 @@ def _upsert_in_batches(idx, vectors: list[dict], namespace: str) -> dict:
 class PineconeIndexer:
     """Create/use a Pinecone index and upsert hierarchical chunk vectors."""
 
-    def __init__(self, api_key: str | None = None):
-        self.api_key = api_key or config.PINECONE_API_KEY
-        self.pc = Pinecone(api_key=self.api_key)
+    def __init__(
+        self,
+        api_key: str | None = None,
+        host: str | None = None,
+        metric: str | None = None,
+    ):
+        self.host = host or config.PINECONE_HOST or None
+        self.api_key = api_key or config.PINECONE_API_KEY or ("pclocal" if self.host else "")
+        self.metric = metric or config.METRIC
+
+        kwargs = {"api_key": self.api_key}
+        if self.host:
+            kwargs["host"] = self.host
+        self.pc = Pinecone(**kwargs)
         self.splade = SpladeEncoder()
+
+    def get_index(self, name: str):
+        if self.host:
+            desc = self.pc.describe_index(name)
+            target_host = desc.host if desc.host.startswith("http") else f"http://{desc.host}"
+            return self.pc.Index(host=target_host)
+        return self.pc.Index(name)
 
     def ensure_index(self, index_name: str | None = None) -> str:
         name = index_name or config.PINECONE_INDEX_NAME
-        if name not in self.pc.list_indexes().names():
+        has_idx = (
+            self.pc.has_index(name)
+            if hasattr(self.pc, "has_index")
+            else (name in self.pc.list_indexes().names())
+        )
+        if not has_idx:
+            logger.info(
+                "Creating hybrid index '%s' (metric=%s, dim=%d) on %s ...",
+                name,
+                self.metric,
+                config.EMBEDDING_DIM,
+                self.host or "cloud",
+            )
             self.pc.create_index(
                 name=name,
                 dimension=config.EMBEDDING_DIM,
-                metric=config.METRIC,
+                metric=self.metric,
                 spec=ServerlessSpec(
                     cloud="aws",
                     region=config.PINECONE_ENVIRONMENT or "us-east-1",
                 ),
                 vector_type="dense",
+                deletion_protection="disabled",
             )
         return name
 
@@ -100,7 +131,7 @@ class PineconeIndexer:
         index_name: str | None = None,
     ) -> dict:
         name = self.ensure_index(index_name)
-        idx = self.pc.Index(name)
+        idx = self.get_index(name)
         logger.info("Upserting %d chunks into index '%s' (namespace=%r)", len(chunks), name, namespace)
 
         vectors = []
@@ -149,22 +180,53 @@ class PineconeIndexer:
 class DenseIndexer:
     """Create/use a dense-only Pinecone index and upsert chunk vectors without sparse values."""
 
-    def __init__(self, api_key: str | None = None):
-        self.api_key = api_key or config.PINECONE_API_KEY
-        self.pc = Pinecone(api_key=self.api_key)
+    def __init__(
+        self,
+        api_key: str | None = None,
+        host: str | None = None,
+        metric: str | None = None,
+    ):
+        self.host = host or config.PINECONE_HOST or None
+        self.api_key = api_key or config.PINECONE_API_KEY or ("pclocal" if self.host else "")
+        self.metric = metric or config.METRIC
+
+        kwargs = {"api_key": self.api_key}
+        if self.host:
+            kwargs["host"] = self.host
+        self.pc = Pinecone(**kwargs)
+
+    def get_index(self, name: str):
+        if self.host:
+            desc = self.pc.describe_index(name)
+            target_host = desc.host if desc.host.startswith("http") else f"http://{desc.host}"
+            return self.pc.Index(host=target_host)
+        return self.pc.Index(name)
 
     def ensure_index(self, index_name: str | None = None) -> str:
         name = index_name or config.PINECONE_DENSE_INDEX_NAME
-        if name not in self.pc.list_indexes().names():
+        has_idx = (
+            self.pc.has_index(name)
+            if hasattr(self.pc, "has_index")
+            else (name in self.pc.list_indexes().names())
+        )
+        if not has_idx:
+            logger.info(
+                "Creating dense index '%s' (metric=%s, dim=%d) on %s ...",
+                name,
+                self.metric,
+                config.EMBEDDING_DIM,
+                self.host or "cloud",
+            )
             self.pc.create_index(
                 name=name,
                 dimension=config.EMBEDDING_DIM,
-                metric=config.METRIC,
+                metric=self.metric,
                 spec=ServerlessSpec(
                     cloud="aws",
                     region=config.PINECONE_ENVIRONMENT or "us-east-1",
                 ),
                 vector_type="dense",
+                deletion_protection="disabled",
             )
         return name
 
@@ -176,7 +238,7 @@ class DenseIndexer:
         index_name: str | None = None,
     ) -> dict:
         name = self.ensure_index(index_name)
-        idx = self.pc.Index(name)
+        idx = self.get_index(name)
         logger.info("Upserting %d chunks into dense index '%s' (namespace=%r)", len(chunks), name, namespace)
 
         vectors = []
@@ -213,4 +275,4 @@ class DenseIndexer:
         resp = _upsert_in_batches(idx, vectors, namespace)
         elapsed = time.perf_counter() - start
         logger.info("Pinecone upsert response: %s (took=%.3fs)", resp, elapsed)
-        return resp
+        return resp

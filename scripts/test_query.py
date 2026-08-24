@@ -17,6 +17,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from rag_index import config  # noqa: E402
+from rag_index.embedder import get_embedder  # noqa: E402
 from rag_index.searcher import DenseSearcher, HybridSearcher  # noqa: E402
 
 TEST_QUERIES = [
@@ -51,12 +53,52 @@ def print_result(rank: int, r: dict) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--index-type", choices=["hybrid", "dense"], default="dense")
+    parser.add_argument(
+        "--embedder",
+        choices=["local", "hf"],
+        default=config.EMBEDDER_TYPE,
+        help="Embedding backend: 'local' (SentenceTransformer) or 'hf' (InferenceClient API)",
+    )
+    parser.add_argument(
+        "--model-path",
+        default=None,
+        help="Custom path to local BGE-M3 model weights (used when --embedder=local)",
+    )
+    parser.add_argument(
+        "--device",
+        default=config.EMBEDDER_DEVICE,
+        help="Device to run local model on: 'cuda', 'cuda:0', 'cpu', or 'auto' (default from config)",
+    )
     parser.add_argument("--top-k", type=int, default=5)
     parser.add_argument("--no-merge", action="store_true", help="disable parent merging")
     parser.add_argument("--verbose", action="store_true", help="print every result instead of top-3")
+    parser.add_argument(
+        "--host",
+        default=config.PINECONE_HOST,
+        help="Pinecone host URL (e.g. 'http://localhost:5080' for Pinecone Local emulator)",
+    )
+    parser.add_argument(
+        "--local",
+        action="store_true",
+        help="Shorthand to force using local Pinecone emulator at http://localhost:5080",
+    )
     args = parser.parse_args()
 
-    searcher = HybridSearcher() if args.index_type == "hybrid" else DenseSearcher()
+    pinecone_host = "http://localhost:5080" if args.local else (args.host or None)
+
+    embedder_kwargs = {}
+    if args.model_path:
+        embedder_kwargs["model_path"] = args.model_path
+    if args.device:
+        embedder_kwargs["device"] = args.device
+
+    embedder = get_embedder(embedder_type=args.embedder, **embedder_kwargs)
+
+    searcher = (
+        DenseSearcher(embedder=embedder, host=pinecone_host)
+        if args.index_type == "dense"
+        else HybridSearcher(embedder=embedder, host=pinecone_host)
+    )
     show = args.top_k if args.verbose else min(3, args.top_k)
 
     failures = []

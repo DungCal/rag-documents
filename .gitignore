@@ -6,3 +6,5 @@
 .venv/
 .env
 logs/
+
+bge-m3/bge-m3

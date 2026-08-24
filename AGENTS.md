@@ -116,7 +116,7 @@ A Python package (see `rag_index/requirements.txt`, configured via `.env`; see `
 #### 7a. `rag_index/config.py`
 
 - **Role:** Central, env-driven configuration. Loads `.env` via `python-dotenv`.
-- **Settings:** `PINECONE_API_KEY`, `PINECONE_ENVIRONMENT`, `PINECONE_INDEX_NAME` (hybrid index), `PINECONE_DENSE_INDEX_NAME` (dense-only index, default `rag-documents-ubuntu-dense`), `HF_TOKEN`, `BGE_M3_MODEL` (default `BAAI/bge-m3`), chunk paths (`output/parsed/chunks`, `index.jsonl`), `EMBEDDING_DIM=1024`, `METRIC=dotproduct`, and logging options (`LOG_LEVEL`, `LOG_FILE=logs/indexing.log`, `LOG_TO_FILE`).
+- **Settings:** `PINECONE_API_KEY`, `PINECONE_ENVIRONMENT`, `PINECONE_INDEX_NAME` (hybrid index), `PINECONE_DENSE_INDEX_NAME` (dense-only index, default `rag-documents-ubuntu-dense`), `EMBEDDER_TYPE` (`local` or `hf`), `LOCAL_BGE_M3_PATH` (default `bge-m3/bge-m3`), `EMBEDDER_DEVICE` (`auto`, `cuda`, or `cpu`), `HF_TOKEN`, `BGE_M3_MODEL` (default `BAAI/bge-m3`), chunk paths (`output/parsed/chunks`, `index.jsonl`), `EMBEDDING_DIM=1024`, `METRIC=dotproduct`, and logging options (`LOG_LEVEL`, `LOG_FILE=logs/indexing.log`, `LOG_TO_FILE`).
 
 #### 7b. `rag_index/chunker.py`
 
@@ -129,11 +129,12 @@ A Python package (see `rag_index/requirements.txt`, configured via `.env`; see `
 
 #### 7c. `rag_index/embedder.py`
 
-- **Role:** Dense embeddings via BGE-M3 through the HuggingFace Inference API (`InferenceClient.feature_extraction`).
+- **Role:** Dense embeddings via BGE-M3 supporting both local offline model loading and cloud HuggingFace Inference API.
 - **Tools & Capabilities:**
-  - `BGE_M3_Embedder.embed/embed_documents` producing 1024-dim vectors (unwraps batch-shaped responses; empty text → zero vector)
-  - Exponential-backoff retry with jitter on transient HF errors (429/502/503/504)
-- **Data Flow / Dependencies:** Requires `HF_TOKEN`; text per chunk = heading + content.
+  - `Local_BGE_M3_Embedder.embed/embed_documents`: loads local BGE-M3 weights from `LOCAL_BGE_M3_PATH` via `SentenceTransformer` with batching, CPU/CUDA auto-detection, and L2-normalized 1024-dim vectors.
+  - `HF_BGE_M3_Embedder.embed/embed_documents` (aliased as `BGE_M3_Embedder`): produces 1024-dim vectors via HuggingFace InferenceClient with exponential backoff on transient errors (429/502/503/504).
+  - `get_embedder(embedder_type, ...)`: factory function instantiating the requested embedder (`local` or `hf`).
+- **Data Flow / Dependencies:** Local mode requires weights at `LOCAL_BGE_M3_PATH` and `sentence-transformers`; HF mode requires `HF_TOKEN`.
 
 #### 7d. `rag_index/indexer.py`
 
@@ -149,15 +150,16 @@ A Python package (see `rag_index/requirements.txt`, configured via `.env`; see `
 
 - **Role:** Retrieval with hierarchical result merging, in two flavors.
 - **Tools & Capabilities:**
-  - `HybridSearcher.search`: single Pinecone query carrying both dense (BGE-M3) and sparse (SPLADE) query vectors against `PINECONE_INDEX_NAME`
+  - `HybridSearcher.search`: single Pinecone query carrying both dense (BGE-M3 local or HF) and sparse (SPLADE) query vectors against `PINECONE_INDEX_NAME`
   - `DenseSearcher.search`: dense-only Pinecone query against `PINECONE_DENSE_INDEX_NAME`
+  - Both accept `embedder` instance or `embedder_type` (`local` / `hf`).
   - `merge_by_parent` (module-level helper; both searchers expose it as a static method): groups level-3 hits by `parent_chunk_file` into full-section results (max score, concatenated content, unioned pages/sources) — the parent-document retrieval strategy
 - **Data Flow / Dependencies:** Queries the index created by the matching indexer class; returns ranked merged results.
 
 #### 7f. CLI entrypoints
 
-- **`rag_index/index.py`** — Full indexing pipeline: build chunks → filter empties → embed → upsert. `--index-type {hybrid,dense}` selects the target index (default `hybrid`). Usage: `python -m rag_index.index --index-type dense [--limit N]`.
-- **`rag_index/query.py`** — Search CLI with optional parent merging (`--merge/--no-merge`, `--top-k`). `--index-type {hybrid,dense}` selects the source index (default `hybrid`). Usage: `python -m rag_index.query --index-type dense "how do I adjust the seat belt"`.
+- **`rag_index/index.py`** — Full indexing pipeline: build chunks → filter empties → embed (local or HF) → upsert. Usage: `python -m rag_index.index [--index-type {hybrid,dense}] [--embedder {local,hf}] [--limit N]`.
+- **`rag_index/query.py`** — Search CLI with optional parent merging (`--merge/--no-merge`, `--top-k`). Usage: `python -m rag_index.query [--index-type {hybrid,dense}] [--embedder {local,hf}] "how do I adjust the seat belt"`.
 - **`rag_index/logging_config.py`** — Shared `rag_index` logger: console always, optional rotating file handler at `logs/indexing.log`.
 
 ---
