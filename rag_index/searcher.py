@@ -26,6 +26,7 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "id": parent_file,
                     "scores": [],
                     "content_parts": [],
+                    "subsections": [],
                     "page_numbers": set(),
                     "sources": set(),
                     "parent_heading": md.get("parent_heading"),
@@ -33,8 +34,16 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "heading_level": md.get("heading_level"),
                 },
             )
+            content = md.get("content", "")
             g["scores"].append(r["score"])
-            g["content_parts"].append(md.get("content", ""))
+            g["content_parts"].append(content)
+            g["subsections"].append(
+                {
+                    "id": r["id"],
+                    "heading": md.get("heading"),
+                    "snippet": content[:200],
+                }
+            )
             g["page_numbers"].update(md.get("page_numbers") or [])
             g["sources"].update(md.get("sources") or [])
         else:
@@ -54,6 +63,7 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "heading": g["parent_heading"],
                     "parent_heading": g["parent_heading"],
                     "content": "\n\n".join(g["content_parts"]),
+                    "subsections": g["subsections"],
                     "page_numbers": sorted(g["page_numbers"]),
                     "sources": sorted(g["sources"]),
                 },

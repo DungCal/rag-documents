@@ -195,7 +195,9 @@ def get_embedder(
     if selected_type in ("local", "local_bge_m3", "sentence_transformers"):
         return Local_BGE_M3_Embedder(**kwargs)
     elif selected_type in ("hf", "huggingface", "api"):
-        return HF_BGE_M3_Embedder(**kwargs)
+        # HF embedder only accepts token/model; drop CLI-only kwargs (model_path, device).
+        hf_kwargs = {k: v for k, v in kwargs.items() if k in ("token", "model")}
+        return HF_BGE_M3_Embedder(**hf_kwargs)
     else:
         raise ValueError(
             f"Unknown embedder_type: '{selected_type}'. Supported values are 'local' and 'hf'."
