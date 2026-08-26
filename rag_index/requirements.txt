@@ -3,3 +3,5 @@ pinecone
 pinecone-text
 huggingface_hub
 python-dotenv
+tiktoken
+langchain-text-splitters

@@ -1,0 +1,32 @@
+▶ INDUSTRY CANADA STATEMENT
+
+
+
+CONNECTING TO DEVICE VIA BLUETOOTH · · · · · · · · · F - 9
+
+CONNECTION TO IMPLEMENTS ······D-11
+
+CONSUMABLES ·····G-23
+
+CONTACT LIST · · · · · · · · · · · · · · · · · · · · · · F - 10
+
+CONTROL INSTRUMENTS ·····C-19
+
+COOLANT TEMPERATURE ·····G-19
+
+COOLANT TEMPERATURE CHECK · · · · · · · · · · · · · D - 15
+
+COOLANT TEMPERATURE GAUGE · · · · · · · · · · · · · C - 10
+
+COOLING SYSTEM TIP ······D-25
+
+CREEP SHIFT LEVER · · · · · · · · · · · · · · · · · · · · C - 24
+
+CUSTOMER SERVICE ·····G-35
+
+
+
+▶ INDUSTRY CANADA STATEMENT
+
+▶ INDUSTRY CANADA STATEMENT
+#### • D

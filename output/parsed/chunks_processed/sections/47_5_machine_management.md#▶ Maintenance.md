@@ -1,0 +1,1 @@
+- Consumable lifespans are sorted into 3 levels: Change / Check / Good.
