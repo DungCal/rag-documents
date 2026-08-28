@@ -17,9 +17,3 @@ The tread can be adjusted by switching the rims and discs on the left and right 
 - For safety, have tread adjustment performed by your dealer or workshop.
 
 - Never remove tires if there is no safe supporting device. The tractor can roll over.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING HOSES

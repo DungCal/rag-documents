@@ -15,9 +15,3 @@
 4. After engine running for 30 ~ 45min, ensure that engine oil warning lamp is turned off.
 
 5. Check the oil level with the dipstick again. If still insufficient, add more.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ REPLACING TRANSMISSION OIL (SUCTION) FILTER

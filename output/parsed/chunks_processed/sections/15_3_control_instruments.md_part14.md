@@ -11,9 +11,3 @@ This switch is used to turn PTO shaft rotating on or off.
 - PTO activation – Turning it clockwise while switch is depressed.
 
 - PTO deactivation – Pressing the switch to return it to original position.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ PTO LEVER

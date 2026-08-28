@@ -17,9 +17,3 @@ When this comes on, open the cover and clean the inside of the cleaner. Also, bl
 #### IMPORTANT
 
 - If keeping driving with this warning lamp illuminated, the engine power can be dropped.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ WATER IN FUEL WARNING LAMP

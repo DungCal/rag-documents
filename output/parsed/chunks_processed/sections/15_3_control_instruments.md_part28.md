@@ -21,9 +21,3 @@ Pressing it once again turns off the lamp and deactivates the function.
 #### WARNING
 
 - PTO shaft won't stop by depressing clutch pedal when PTO auto switch is on "OFF" position.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ DIFF. LOCK SWITCH

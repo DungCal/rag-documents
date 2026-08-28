@@ -23,9 +23,3 @@ Turn left : Low speed
 #### WARNING
 
 - Avoid using it on a road as it can cause an accident by high speed driving.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ MAIN SHIFT CONTROLLER

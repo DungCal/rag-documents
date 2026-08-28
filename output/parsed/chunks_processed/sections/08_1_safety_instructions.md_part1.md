@@ -27,9 +27,3 @@ DANGER identifies the most serious hazards.
 Safety symbols with signal signs ‘DANGER or WARNING’ are typically near specific hazards.
 
 General precautions are listed on ‘CAUTION’ safety signs.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ READ SAFETY INSTRUCTION

@@ -11,9 +11,3 @@ It comes on when APS is activated.
 
 - PRE-HEAT LMAP
 It comes on when preheating is on progress.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ HIGH-BEAM LAMP, FUEL WARNING LAMP

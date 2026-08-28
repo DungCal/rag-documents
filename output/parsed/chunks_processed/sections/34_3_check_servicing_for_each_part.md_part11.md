@@ -23,9 +23,3 @@ Pre-fuel filter is installed next to the front loader valves.
 5. Filter insert
 
 6. Fuel inlet from the fuel tank
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ EMPTY WATER TANK

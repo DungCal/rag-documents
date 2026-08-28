@@ -9,9 +9,3 @@
 This indicates malfunction of the tractor.
 
 When an error code is shown on the display, stop driving and perform repair or service accordingly.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ FUEL GAUGE

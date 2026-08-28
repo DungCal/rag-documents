@@ -11,9 +11,3 @@ This lever steps main shift up or down without depressing the clutch pedal.
 - To step up the main shift – Push forward (1→2→3→4→5→6)
 
 - To step down the main shift – Pull backward (6→5→4→3→2→1)
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ APS SWITCH

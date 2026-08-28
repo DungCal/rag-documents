@@ -65,9 +65,3 @@ When checking and replacing the blade to plow the ground
 - When driving backward or turning quickly with the rotary raised up, make sure to check behind the machine.
 
 - Adjust the rear cover.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ OTHER PRECAUTIONS

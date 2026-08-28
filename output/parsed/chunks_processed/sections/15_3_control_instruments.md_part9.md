@@ -13,9 +13,3 @@ Main shift gear shifts at high engine RPM while APS is activated.
 
 - Turn counter-clockwise: Eco drive
 Main shift gear shifts at low engine RPM while APS is activated.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ SUB SHIFT LEVER

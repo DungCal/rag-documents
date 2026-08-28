@@ -50,9 +50,3 @@ Charge the battery in this case.
 and positive battery terminals correctly.
 
 When using a charger, its charging current should be below 10 A.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ JUMP START

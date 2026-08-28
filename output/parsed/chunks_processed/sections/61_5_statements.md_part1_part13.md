@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -31,10 +33,3 @@ LONG-TERM STORAGE · · · · · · · · · · · · · · · · · · · E - 3
 LOWER LINK · · · · · · · · · · · · · · · · · · · · · · · · · C - 41
 
 LUBRICATING OIL TIP ······D-23
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • M

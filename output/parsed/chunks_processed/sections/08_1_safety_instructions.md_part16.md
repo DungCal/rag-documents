@@ -11,9 +11,3 @@ Do not wear a necktie, scarf or loose clothing when you work near moving parts.
 If these items were to get caught, severe injury could result.
 
 Remove rings and other jewelry to prevent electrical shorts and entanglement in moving parts.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ WORK IN VENTILATED AREA

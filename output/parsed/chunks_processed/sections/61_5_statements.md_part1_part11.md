@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -7,10 +9,3 @@
 JOYSTICK LEVER · · · · · · · · · · · · · · · · · · · · · · C - 25
 
 JUMP START · · · · · · · · · · · · · · · · · · · · · · · · · · · E - 19
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • K

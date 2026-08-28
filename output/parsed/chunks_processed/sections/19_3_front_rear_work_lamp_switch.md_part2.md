@@ -9,9 +9,3 @@
 Pull the sun visor handle and fasten it to the ring.
 
 In order to wind it up again, pull the handle back to its original position and it will wind itself automatically.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ A/C, HEATER CONTROL PANEL

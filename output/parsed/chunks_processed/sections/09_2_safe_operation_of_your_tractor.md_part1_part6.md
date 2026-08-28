@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -34,10 +36,3 @@ A none approved cap may not be safe.
 12. Arrange fuel purchases so that winter grade fuel are not held over and used in the spring.
 
 13. Use ultra-low sulfur fuel only.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### IMPORTANT

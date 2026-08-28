@@ -14,9 +14,3 @@ Do not refuel the tractor while smoking or near open flame or sparks.
 Always stop engine before refueling tractor.
 
 Always keep your tractor clean of accumulated grease and debris. Always clean up spilled fuel.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ STAY CLEAR OF ROTATING SHAFTS

@@ -74,9 +74,3 @@ Make sure to check the refrigerant level frequently.
 - If refrigerant gets on your skin, you can get burnt severely. Therefore, any system service should be performed by qualified technicians.
 
 - For superior cooling performance, keep the engine speed over 1,000 RPM.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ FRESH AIR SUCTION FILTER

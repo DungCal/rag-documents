@@ -13,9 +13,3 @@ The color of main shift position number changes to blue(L), yellow(M), red(H) an
 #### + IMPORTANT
 
 - Main shift position will change the position that the operator sets when sub shift position changed. Please refer to the 'TOUCH MONITOR' section for more detail.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ APS(Auto Power Shift) LAMP, PRE-HEAT LAMP

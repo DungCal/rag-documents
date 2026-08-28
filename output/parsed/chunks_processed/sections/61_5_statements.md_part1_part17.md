@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -71,10 +73,3 @@ PTO SHAFT CAP ·····C-42
 PTO SWITCH · · · · · · · · · · · · · · · · · · · · · · · · · C - 26
 
 PUSH MESSAGE SETTING ·······G-13
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • Q

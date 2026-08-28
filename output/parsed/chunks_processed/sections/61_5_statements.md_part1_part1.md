@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -11,10 +13,3 @@
 4WD LAMP · · · · · · · · · · · · · · · · · · · · · · · · · · C - 13
 
 4WD SWITCH C - 35
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • A

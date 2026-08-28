@@ -27,9 +27,3 @@ This comes on when the start switch is turned to the "ON" position and goes off 
 - If the charge warning lamp comes on while driving, the battery is not properly charged.
 
 Therefore, turn off any unnecessary electrical devices and have your vehicle checked by your workshop immediately.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ PARKING BRAKE LAMP, ONE-SIDE BRAKE LAMP

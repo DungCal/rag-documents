@@ -19,9 +19,3 @@ This comes on when the 4WD is activated.
 #### - QUICK-TURN LAMP
 
 This comes on while the quick turn function is in use.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ DIFFERENTIAL LOCK LAMP

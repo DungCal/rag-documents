@@ -17,9 +17,3 @@ It comes on while DPF regeneration process is on progress.
 #### WARNING
 
 - Muffler and exhaust gas are very hot while DPF regeneration process is on progress.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ SCR WARNING LAMP, DPF MALFUNCTIONING LAMP

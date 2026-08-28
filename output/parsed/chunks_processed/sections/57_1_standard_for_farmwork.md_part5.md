@@ -15,9 +15,3 @@ Get a regular inspection after the season is over.
 - When discarding a part (battery, oil, etc.) or scrap a machine, consult to a dealer and proceed accordingly.
 
 For long-term storage, remove the battery from the machine and store it or disconnect the negative battery cable.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ CAUTIONS FOR INSPECTION & MAINTENANCE

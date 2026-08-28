@@ -31,9 +31,3 @@ This equipment complies with FCC radiation exposure limits set forth for an unco
 This equipment should be installed and operated with minimum distance 20 cm between the radiator and your body.
 
 This transmitter must not be co-located or operating in conjunction with any other antenna or transmitter.
-
-
-
-## 5. STATEMENTS
-
-### ▶ INDUSTRY CANADA STATEMENT

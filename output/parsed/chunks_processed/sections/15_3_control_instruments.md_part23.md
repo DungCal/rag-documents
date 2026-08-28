@@ -9,9 +9,3 @@
 #### TOP LINK RETRACTION SWITCH
 
 Top link cylinder retracts while the button is pressed.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ 4WD AUTO SWITCH

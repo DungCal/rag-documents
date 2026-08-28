@@ -9,9 +9,3 @@
 Do not start the tractor in an enclosed building unless the doors & windows are open for proper ventilation as tractor fumes can cause sickness or death.
 
 If it is necessary to run an engine in an enclosed area remove the exhaust fumes by connecting exhaust pipe extension.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ TRACTOR RUNAWAY

@@ -44,9 +44,3 @@ Never carry a big object with the loader unless a proper implement is attached.
 Keep a carried object low during driving.
 
 Otherwise, it may lead to an injury or even death.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ TOWING SAFELY

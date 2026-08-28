@@ -13,9 +13,3 @@ The green arrow indicates the engine speed at the standard 540 RPM speed of the 
 #### IMPORTANT
 
 - The engine can be damaged if increasing its speed too fast.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ HOUR METER

@@ -1,1 +1,0 @@
-![](77300ab459bd23cbb078cad1fc207f546cac400ea87bce4ff2e3ced5419dbdbc.jpg)

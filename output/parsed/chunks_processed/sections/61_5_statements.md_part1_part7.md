@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -38,10 +40,3 @@ FUEL LEVEL CHECK D - 15
 FUEL TANK E-12
 
 FUEL WARNING LAMP · · · · · · · · · · · · · · · · · · · C - 12
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • G

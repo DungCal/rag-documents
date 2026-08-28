@@ -89,9 +89,3 @@ Following recommissioning procedure is to part of operator manual/storage instru
 - Must make sure the battery is on for more than 2 minutes until automatic DEF withdrawal process is completed.
 
 - DEF storing guidance is 2 months under -40°C~40°C (-40F~104F) and 4 months under -40°C~25°C(-40F~77F).
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ AIR CLEANER SERVICING

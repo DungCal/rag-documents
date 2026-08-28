@@ -9,9 +9,3 @@
 Use of hazard warning lights and turn signals are recommended when towing equipment on public roads unless prohibited by state or local regulations.
 
 Use slow moving vehicle(SMV) sign when driving on public road during both day& night time unless prohibited by law.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PRACTICE SAFE MAINTENANCE

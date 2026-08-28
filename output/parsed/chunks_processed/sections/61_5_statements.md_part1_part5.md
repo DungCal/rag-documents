@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -50,10 +52,3 @@ DRAW BAR · · · · · · · · · · · · · · · · · · · · · · · ·
 DRAW BAR ADJUSTMENT ·····C-42
 
 DRIVE MODE SET DIAL ·····C-23
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • E

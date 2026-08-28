@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -25,10 +27,3 @@ Failure to follow these instructions can result in serious injury.
 6. Keep open flame away from battery or cold weather starting aids to prevent fire or explosions.
 
 7. Do not modify or alter or permit anyone else to modify or alter this tractor or any of its components or any tractor functions.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### <OPERATING THE TRACTOR>

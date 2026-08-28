@@ -9,9 +9,3 @@
 Engine fuse box supplies power to SCR parts, fuel pump parts and cabin electric parts and protects them.
 
 If any issues with starting the engine, SCR and fuel pump parts, check the engine fuse box.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CABIN RELAY BOX

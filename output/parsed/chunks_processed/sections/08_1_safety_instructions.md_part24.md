@@ -13,9 +13,3 @@ The term FOPS refers to structure installed on the tractor intended to reduce th
 - This tractor is not equipped with a FOPS.
 
 ● The energy level of drop test is 1365J.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ OPERATOR PROTECTIVE STRUCTURE (OPS)

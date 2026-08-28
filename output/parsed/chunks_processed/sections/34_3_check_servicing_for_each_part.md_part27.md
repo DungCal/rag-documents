@@ -9,9 +9,3 @@
 This supplies power to the cabin control panel and cabin electric devices. If any cabin electric device is not operating properly, check this part.
 
 If defect is found, replace it with a new one. (The cabin relay box is installed in the roof.)
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING BELT DRIVE

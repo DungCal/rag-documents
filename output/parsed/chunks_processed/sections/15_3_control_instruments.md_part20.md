@@ -170,9 +170,3 @@ Set the lever (2) between 0 ~ 1 and press lift arm lowering button (14). Floatin
 #### WARNING
 
 - When leaving from the tractor, lowering a implement and stop the engine to prevent from unexpected an accident.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ SWITCH PANEL

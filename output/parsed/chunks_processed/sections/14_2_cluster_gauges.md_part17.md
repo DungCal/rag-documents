@@ -19,9 +19,3 @@ This may come on during the engine warming up.
 
 - When the oil pressure warning lamp comes on, this indicates malfunction of the lubrication system.
 Check the engine oil immediately and have your vehicle serviced by your workshop as necessary.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ AIR CLEANER WARNING LAMP

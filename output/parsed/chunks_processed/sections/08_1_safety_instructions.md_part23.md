@@ -11,9 +11,3 @@ Before transporting the tractor on a low loader or on a railway wagon, make sure
 Never tow the tractor at speeds in excess of 10km/h.
 
 An operator must stay in the operator position to steer and brake the tractor.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ FALLING OBJECT PROTECTIVE STRUCTURE (FOPS)

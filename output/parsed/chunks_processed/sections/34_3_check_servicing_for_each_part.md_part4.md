@@ -46,9 +46,3 @@
 - Check the engine oil before starting the engine or at least in 5 minutes after the engine is stopped.
 
 - When trying to use new oil from a different manufacturer or oil with different viscosity, drain used oil completely before adding new oil.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING AND CHANGING TRANSMISSION OIL

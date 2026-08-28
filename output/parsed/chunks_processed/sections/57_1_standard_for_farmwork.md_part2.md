@@ -15,9 +15,3 @@ Before any operation, check for any foreign materials caught on the engine, muff
 Covers that are removed during the maintenance work should be reinstalled to their original positions.
 
 - Attach the cover correctly and firmly.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ CAUTIONS DURING THE WORK

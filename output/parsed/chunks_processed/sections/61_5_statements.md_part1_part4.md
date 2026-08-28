@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -96,10 +98,3 @@ COOLING SYSTEM TIP ······D-25
 CREEP SHIFT LEVER · · · · · · · · · · · · · · · · · · · · C - 24
 
 CUSTOMER SERVICE ·····G-35
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • D

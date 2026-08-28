@@ -20,9 +20,3 @@
 
 ● After repair work:
 Check that all guards have been replaced and that all tools have been removed from the engine.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ REPLACING FAN BELT

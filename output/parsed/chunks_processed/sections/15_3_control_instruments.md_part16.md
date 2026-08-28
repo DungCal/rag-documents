@@ -23,9 +23,3 @@ increase the speed by 50 RPM each time.
 SWITCH
 
 decrease the speed by 50 RPM each time.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ SHUTTLE RESPONSE SET DIAL

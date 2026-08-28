@@ -40,9 +40,3 @@ A function which performs an automatic return in the event that a problem occurs
 - An unnecessary load is placed on the engine when the detent valve is in an active state, thereby causing the engine's power to drop noticeably below the normal level as well as an increase in noise and vibrations due to the relief valve being open.
 
 - The starting performance of the engine also drops when the detent valve is in an active state. Particularly during winter, starting performance drops noticeably and exhaust fumes are heavy immediately after starting the engine.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ REMOTE CONTROL VALVES

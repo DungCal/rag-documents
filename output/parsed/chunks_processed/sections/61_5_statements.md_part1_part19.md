@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -57,10 +59,3 @@ ROPS · · · · · · · · · · · · · · · · · · · · · · · · · 
 ROPS (ROLL OVER PROTECTIVE STRUCTURE) · · · · · · · A - 10
 
 RUNNING-IN PERIOD · · · · · · · · · · · · · · · · · · · · · D - 4
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • S

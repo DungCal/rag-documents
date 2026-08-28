@@ -37,9 +37,3 @@ This tractor has 1 slow-blow fuse installed to its wirings (1 for battery positi
 These fuses are blown to cut current to the electric circuit in order to protect wirings.
 
 Find the cause for blown fuses and replace them with the specified genuine parts.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ ENGINE FUSE BOX

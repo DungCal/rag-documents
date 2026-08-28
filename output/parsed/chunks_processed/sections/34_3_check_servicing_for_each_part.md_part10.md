@@ -13,9 +13,3 @@ Use clean diesel only.
 #### DANGER
 
 - When checking the fuel system or fueling, keep flammable items, such as a lit cigarette, away from the tractor. The tractor may catch fire.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CLEANING WATER SEPARATOR OF PRE-FUEL FILTER

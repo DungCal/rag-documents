@@ -22,9 +22,3 @@
 #### WARNING
 
 ● Make sure to connect the positive terminal first and connect the negative terminal to the engine body of the tractor with the discharged battery.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING ELECTRIC WIRING

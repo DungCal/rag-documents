@@ -9,9 +9,3 @@
 #### DIFFERENTIAL LOCK LAMP
 
 This comes on when differential lock is engaged.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ BACK-UP LAMP, TURN-UP LAMP

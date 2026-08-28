@@ -35,9 +35,3 @@ The 4WD can be useful under the following conditions:
 The tires can be worn excessively.
 
 - If stopping the engine while the 4WD is engaged, starting the engine again automatically engages the 4WD.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ BACK UP SWITCH

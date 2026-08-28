@@ -13,9 +13,3 @@ This function is to lift the implement automatically when the vehicle is driven 
 Pressing the button once turns on the lamp and activates the reverse driving-lifting function.
 
 Pressing it once again turns off the lamp and deactivates the function.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ TURN UP SWITCH

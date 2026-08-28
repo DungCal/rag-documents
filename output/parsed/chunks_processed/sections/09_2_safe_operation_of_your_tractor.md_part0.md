@@ -35,9 +35,3 @@ Do not add water in the radiator when the engine is hot.
 Add water to the radiator only after the engine cools down completely.
 
 11. To prevent fires keep the tractor including the engine clean and free from inflammable material and well away from fuels and other inflammable material.
-
-
-
-## 2. SAFE OPERATION OF YOUR TRACTOR
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS

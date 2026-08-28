@@ -16,9 +16,3 @@ Wait until the electric fuel supply pump is disconnected from the control unit.
 
 - Ignition "OFF"
 Repeat the process at least 2 times until the fuel system is vented.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ REPLACING FUEL FILTER

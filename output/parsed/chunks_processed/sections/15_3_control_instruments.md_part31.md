@@ -15,9 +15,3 @@ Main shift shifting sensitivity can be among light, middle and heavy.
 #### IMPORTANT
 
 - Operation may have a delay due to the difference between the electrical signal and the mechanical response time.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ EXTERNAL TOP LINK

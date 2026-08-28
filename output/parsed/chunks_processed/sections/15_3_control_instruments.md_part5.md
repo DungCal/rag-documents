@@ -21,9 +21,3 @@ To release the parking brake, press the button at the tip of the lever.
 #### IMPORTANT
 
 ● Make sure to park tractor, stop engine and apply parking brake. Also, chock wheels if parking on a steep slope.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ THROTTLE DIAL

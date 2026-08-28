@@ -24,9 +24,3 @@ Nm
 
 7. Electrical connection
 - Connect cable connections
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHANGE FUEL PRE-FILTER INSERT

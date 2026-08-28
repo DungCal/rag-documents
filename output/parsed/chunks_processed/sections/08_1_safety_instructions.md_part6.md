@@ -11,9 +11,3 @@ Before working on the tractor:
 • Lower all equipment to the ground.
 
 - Stop the engine and keep the smart key safely.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ KEEP RIDERS OFF TRACTOR

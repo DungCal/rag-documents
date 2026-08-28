@@ -13,9 +13,3 @@ The tractor can be started only if main or sub shift lever is in neutral positio
 #### CAUTION
 
 - Safety Starter Switch is to be replaced after every 2,000 hours/4 years, whichever is earlier.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ EMERGENCY EXITS

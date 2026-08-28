@@ -35,9 +35,3 @@ Understand service procedure before doing work.
 \ominus
 
 before making adjustments on electrical systems or welding on tractor.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ AVOID HIGH PRESSURE FLUIDS

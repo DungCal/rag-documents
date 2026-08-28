@@ -17,9 +17,3 @@ This can turn on or off APS(Auto Power Shift) function.
 - APS function only works when sub shift is in ‘H’ position.
 
 - APS range can be set at APS setting menu using touch monitor.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ DRIVE MODE SET DIAL

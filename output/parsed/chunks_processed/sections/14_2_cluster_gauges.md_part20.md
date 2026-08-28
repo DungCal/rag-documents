@@ -3,11 +3,3 @@
 
 
 ### ▶ FORWARD LAMP, REVERSE LAMP
-
-
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ UREA WARNING LAMP

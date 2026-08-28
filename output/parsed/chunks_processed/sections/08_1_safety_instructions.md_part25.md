@@ -11,9 +11,3 @@ The term OPS refers to a protective structure installed on a tractor in order to
 #### DANGER
 
 - This tractor is not equipped with an OPS. If work must be performed in areas subject to the risk of the penetration of objects into the operator position, consult your dealer before starting work so that the tractor can be equipped with an appropriate protective structure.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ USE OF HAZARDOUS SUBSTANCES

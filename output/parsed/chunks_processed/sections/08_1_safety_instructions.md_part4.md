@@ -17,9 +17,3 @@ In the event of damage or alternation, the ROPS must be replaced prior to furthe
 The seat belt must be worn during machine operation when the machine is equipped with a certified ROPS.
 
 Failure to do so will reduce or eliminate protection for the operator in the event of a roll-over.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PRECAUTION TO AVOID TIPPING

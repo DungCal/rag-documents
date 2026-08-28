@@ -38,9 +38,3 @@ Then, fresh air is drawn into the cabin from outside through the filter.
 
 Misuse of such chemicals can harm driver and others' health.
 Make sure to follow dust inhalation safety instruction, personal hygiene guidance and other precautions from the manufacturers of the tractor and chemicals.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ WIRELESS CHARGER, ELECTRIC THERMAL CUP HOLDER

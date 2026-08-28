@@ -50,9 +50,3 @@ Safety in inspection, adjustment, etc.
 Removing and installing should be carried out in a safe place and with a safe method.
 
 Do neither stay nor insert foot under the working units.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ CAUTIONS WHEN DRIVING ON FARM ROAD

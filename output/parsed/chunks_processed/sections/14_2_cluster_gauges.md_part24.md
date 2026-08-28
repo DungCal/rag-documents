@@ -17,9 +17,3 @@ Get service at workshop.
 This comes on when DPF parts are malfunctioning.
 
 Get service at workshop.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ PROBLEM RELATED TO UREA INJECTION SYSTEM AND OTHER SYSTEMS

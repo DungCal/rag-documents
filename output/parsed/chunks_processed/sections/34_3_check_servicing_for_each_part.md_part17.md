@@ -35,9 +35,3 @@ After cleaning the element 5 times or if it is damaged, replace it with a new on
 #### <Cleaning cover>
 
 Undo the clip and remove the cover to wash it thoroughly with water.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ ADJUSTING TREAD

@@ -17,9 +17,3 @@ The V-ribbed belt is now tension free.
 4. Retain tensioning pulley using the pin wrench and remove the holding pin.
 
 5. Tension V-ribbed belt using the tensioning roller and socket wrench. Check whether the V-ribbed belt is correctly in its guide.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING A/C BELT

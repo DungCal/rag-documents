@@ -25,9 +25,3 @@ If you spill acid on yourself:
 1. Flush your skin or eyes with water for 10 ~ 15 minutes.
 
 2. Get medical attention immediately.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ BATTERY DISCONNECTION

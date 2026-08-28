@@ -17,9 +17,3 @@ There are 6 digits for the hour meter.
 The last digit indicates one tenth hours.
 
 ex.) The time of use illustrated above is 234 hours and 30 minutes.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ SPEEDO METER

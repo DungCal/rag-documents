@@ -21,9 +21,3 @@ This indicates the amount of urea while the start switch is in the "ON" position
 • Red lamp ON: 5% of urea in tank
 
 - Red lamp blinking: 2.5% of urea in tank
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ DPF WARNING LAMP, DPF REGEN. LAMP

@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -23,10 +25,3 @@ protection.
 7. Replace all missing, illegible or damaged safety signs.
 
 8. Keep safety signs clean of dirt and grease.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### <SERVICING THE TRACTOR>

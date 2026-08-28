@@ -21,9 +21,3 @@ USB charger is installed for convenience.
 - Use it only while the engine is running. After use, remove the plug from the socket. If using it with the engine stopped or plugging an electric device to it for an extended period of time, the battery can be discharged.
 
 - Close its cover when it is not in use.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ SUN VISOR

@@ -10,9 +10,3 @@ Keep sparks, lighted matches and open flame away from the top of battery.
 Battery gas can explode.
 
 Never check battery charge by placing a metal object across the poles.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PREVENT ACID BURNS

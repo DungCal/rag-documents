@@ -13,9 +13,3 @@ Keep PTO shield in place at all the time.
 Wear fitting clothing.
 
 Stop the engine and be sure PTO drive is stopped before making adjustments, connections or cleaning out of PTO driven equipment.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ ALWAYS USE SAFETY LIGHTS AND DEVICES

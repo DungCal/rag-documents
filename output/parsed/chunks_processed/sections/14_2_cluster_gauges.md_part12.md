@@ -19,9 +19,3 @@ This comes on when the parking brake is applied.
 #### • ONE-SIDE BRAKE LAMP
 
 This comes on when brake engaging hook is not engaged.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ 4WD LAMP, QUICK-TURN LAMP

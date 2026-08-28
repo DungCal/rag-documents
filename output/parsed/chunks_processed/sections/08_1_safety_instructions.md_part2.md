@@ -11,9 +11,3 @@ Carefully read all safety instructions given in this manual for your safety. Tem
 Keep all safety signs in good condition. Replace missing or damaged safety signs.
 
 Keep your tractor in proper condition and do not allow any unauthorized modifications to be carried out on the tractor, which may impair the function / safety and affect tractor life.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PROTECT CHILDREN

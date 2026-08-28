@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -17,10 +19,3 @@ GRASING EACH PART · · · · · · · · · · · · · · · · · · · · E 
 GREASING AND DRAIN POINTS · · · · · · · · · · · · · · E - 25
 
 GREASING BRAKE ARM E-25
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • H

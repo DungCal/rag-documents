@@ -51,9 +51,3 @@ Mix antifreeze with water sufficiently before adding it.
 - If engine coolant gets on your skin, it can irritate the skin and cause a skin condition.
 
 Make sure to clean your skin with soap and water or hand cleaner thoroughly.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CLEANING RADIATOR GRILLE

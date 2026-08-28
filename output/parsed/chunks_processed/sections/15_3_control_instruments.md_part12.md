@@ -55,9 +55,3 @@ Pushing it to the left locks the lever while pushing it to the right unlocks the
 #### IMPORTANT
 
 - A implement can be dropped suddenly by operating the joystick lever accidentally. Therefore, lock it in position with its lock switch when it is not in use.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ FRONT LOADER VALVES

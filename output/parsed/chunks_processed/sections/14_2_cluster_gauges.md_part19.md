@@ -38,9 +38,3 @@ This comes on when shuttle lever is on forward position.
 #### - REVERSE LAMP
 
 This comes on when shuttle lever is on reverse position.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ FORWARD LAMP, REVERSE LAMP

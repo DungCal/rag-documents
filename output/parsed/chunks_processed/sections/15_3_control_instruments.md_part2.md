@@ -15,9 +15,3 @@ Each brake pedal brakes only one rear wheel on the corresponding side.
 #### CAUTION
 
 - At a low speed, the rotating force of the axle acts greatly, so depressing the brake pedal strongly with the clutch pedal released cannot brake the vehicle. To stop the vehicle, disengage the clutch first and depress the brake pedals.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ BRAKE INTERLOCK

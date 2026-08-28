@@ -52,9 +52,3 @@ In the position (a) with the seat empty, press upper of the switch to set the se
 #### - Lowering seat
 
 In the position (b) with the seat empty, press bottom of the switch to set the seat into the position (a).
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ TILT LEVER

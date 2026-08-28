@@ -16,9 +16,3 @@ Then, tighten the bolt.
 3. Press the center of the belt with a filter.
 
 If it is deflected for 7 ~ 9mm, the tension is proper.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ TIRE PRESSURE

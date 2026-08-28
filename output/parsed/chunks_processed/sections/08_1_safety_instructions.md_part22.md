@@ -17,9 +17,3 @@ Always take into consideration the total weight of the implements and their load
 - Before you leave the driving seat when a trailers is hitched to the tractor, remember to put all the controls in neutral, apply the parking brake, switch off the engine, engage first gear (if the tractor has a mechanical transmission) and remove the key from the starter switch.
 
 If the tractor is not parked on level ground, always place chocks under the wheels of both the tractor and the trailer.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ TRANSPORT TRACTOR BY TRUCK

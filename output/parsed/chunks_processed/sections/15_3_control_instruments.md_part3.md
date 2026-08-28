@@ -17,9 +17,3 @@
 - Connect the left and right brake pedals while driving on a road, loading / unloading the tractor or driving into/out of a field to avoid rollover and collision.
 
 - Inspect the brake pedals periodically so that they can be operated simultaneously without any problem.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ THROTTLE PEDAL

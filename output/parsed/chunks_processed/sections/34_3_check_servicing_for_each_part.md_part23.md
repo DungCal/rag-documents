@@ -37,9 +37,3 @@ The battery disconnect knob may be removed for safety purposes in the manner des
 
 - When the ignition switch is turned to the OFF position, urea is returned to the tank automatically.
 However, this may take up to 2 minutes do not disconnect battery within less than 2 minutes from engine shut down.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING AND REPLACING FUSE

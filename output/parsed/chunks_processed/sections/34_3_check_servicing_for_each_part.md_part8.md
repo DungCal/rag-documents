@@ -17,9 +17,3 @@ When its packing touches the sealing surface, turn it approx. 2/3 turns further 
 4. Check the oil level with the dipstick again.
 
 If still insufficient, add more.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ REPLACING HIGH-PRESSURE FILTER

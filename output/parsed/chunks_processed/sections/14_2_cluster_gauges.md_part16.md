@@ -44,9 +44,3 @@ If it keeps illuminated, contact your dealer.
 Check the oil immediately and have your vehicle serviced by your workshop as necessary.
 
 - If driving with the warning lamp illuminated, the transmission can be damaged.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ ENGINE OIL PRESSURE WARNING LAMP

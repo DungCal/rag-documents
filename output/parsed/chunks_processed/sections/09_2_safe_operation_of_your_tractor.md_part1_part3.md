@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -51,10 +53,3 @@ Be sure the lights are adjusted to prevent the blinding on the eyes of coming ve
 
 16. Emergency stopping instruction; If tractor fails to stop even after application of brakes.
 Pull the knob of fuel shut off control rod.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### <DRIVING THE TRACTOR>

@@ -40,9 +40,3 @@ When entering paved road
 When driving on a slope
 
 - Drive at the minimum speed, lower the operating machine as low as possible and low the center position.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ INSTRUCTION AFTER USE

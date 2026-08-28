@@ -19,9 +19,3 @@ This comes on with the high beam activated and goes off with the low beam activa
 #### • FUEL WARNING LAMP
 
 This comes on when the fuel amount in the fuel tank is not sufficient.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ ENGINE WARNING LAMP, CHARGE WARNING LAMP

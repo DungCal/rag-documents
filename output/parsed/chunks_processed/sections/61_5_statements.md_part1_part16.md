@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -34,10 +36,3 @@ OTHER PRECAUTIONS · · · · · · · · · · · · · · · · · · · · ·
 OTHER TIPS · · · · · · · · · · · · · · · · · · · · · · · · · D - 25
 
 OWNER ASSISTANCE ······A-9
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • P

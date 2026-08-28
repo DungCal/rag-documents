@@ -13,9 +13,3 @@ This symbol means
 The message that follows the symbol contains important information about safety.
 
 Carefully read the message.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ SIGNAL SIGNS

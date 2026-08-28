@@ -15,9 +15,3 @@ Stop PTO shaft rotating before PTO shift lever is changed.
 | 540 |
 | 750 |
 | 1,000 |
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ PTO CRUISE SWITCH

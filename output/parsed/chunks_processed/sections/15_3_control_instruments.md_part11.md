@@ -45,9 +45,3 @@ Be sure to step down on the clutch pedal completely before applying the brakes, 
 - When starting to operate the tractor, be sure to release the parking brakes.
 
 Misuse of the brakes may cause damage to the transmission and is therefore not acceptable to TYM for coverage under the warranty.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ JOYSTICK LEVER

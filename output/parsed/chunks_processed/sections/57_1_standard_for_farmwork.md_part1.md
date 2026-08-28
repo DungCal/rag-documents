@@ -44,9 +44,3 @@ Do not load flammable, explosive material (diesel, gasoline, etc) on the machine
 When getting on and off a truck, have a helper give you signal and follow his/her lead.
 
 Refer to chapter ‘GENERAL INFORMATION’ regarding the decals on the machine.
-
-
-
-## 1. STANDARD FOR FARMWORK
-
-### ▶ CHECKUP LIST FOR OPERATION

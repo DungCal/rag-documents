@@ -13,9 +13,3 @@ This is able to charger the mobile phone.
 #### • Electric thermal cup holder
 
 The electric thermal cup holder keeps the cup bottle warm or cold.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ SEAT ADJUSTMENT

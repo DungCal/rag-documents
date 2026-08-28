@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -132,10 +134,3 @@ WORK PROCEDURES ·······D-16
 WORK SHEET · · · · · · · · · · · · · · · · · · · · · · G - 25
 
 WORKING LAMP · · · · · · · · · · · · · · · · · · · · · · · C - 46
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### T130 (SP)

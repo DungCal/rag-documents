@@ -65,9 +65,3 @@ Inspect each part in the following order:
 - Coolant gauge operation
 
 - Hydraulic operation of 3-point link
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING AND CHANGE COOLANT

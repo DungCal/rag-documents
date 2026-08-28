@@ -17,9 +17,3 @@ F: Full
 - Poor fuel quality can damage the engine. Make sure to use only the specified genuine diesel fuel.
 
 - Use fuel for winter season in winter to enhance engine starting performance.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ COOLANT TEMPERATURE GAUGE

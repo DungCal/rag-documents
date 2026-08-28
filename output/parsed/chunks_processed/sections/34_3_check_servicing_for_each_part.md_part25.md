@@ -9,9 +9,3 @@
 Engine fuse box supplies power to ECU and engine sensor and protects them.
 
 If any issues with start motor or engine parts, check the engine fuse box.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ TWIN RELAY, FUSE BOX

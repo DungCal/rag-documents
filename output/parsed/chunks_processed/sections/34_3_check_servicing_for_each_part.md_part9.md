@@ -19,9 +19,3 @@
 6. Wash the removed cover with hydraulic oil and install it with a spanner.
 
 7. Start the engine and confirm that the indicator is turned off.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ FUEL TANK

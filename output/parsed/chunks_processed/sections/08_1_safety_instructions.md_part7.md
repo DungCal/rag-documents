@@ -9,9 +9,3 @@
 Do not allow riders on the tractor.
 
 Riders on tractor are subject to injury such as being stuck by foreign objects and being thrown off of the tractor.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ HANDLE FUEL SAFELY TO AVOID FIRE

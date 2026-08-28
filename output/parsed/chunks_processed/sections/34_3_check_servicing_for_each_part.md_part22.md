@@ -12,9 +12,3 @@ Replace or repair aged and damaged wirings.
 3. If fasteners or bands to fix wirings are damaged, fix wirings with clamps.
 
 4. Have wirings checked by your workshop once a year regularly to avoid fire.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ DISCONNECTING BATTERY

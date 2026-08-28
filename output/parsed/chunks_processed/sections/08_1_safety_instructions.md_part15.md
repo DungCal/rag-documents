@@ -9,9 +9,3 @@
 When working with your tractor electrical components, you must first disconnect the battery cables.
 
 To ensure that there are no accidents from sparks, you must first disconnect the negative battery cable.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ SERVICE TRACTOR SAFELY

@@ -32,9 +32,3 @@ Then, fit the male coupler on the implement side while moving its external ring 
 - To prevent a burn and skin damage, make sure to stop the engine before connecting or disconnecting the coupler.
 
 - Do not use your hands to check for oil leakage.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ ELECTRIC LIFT SYSTEM CONTROL PANEL

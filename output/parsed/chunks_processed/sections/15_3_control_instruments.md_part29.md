@@ -52,9 +52,3 @@ Otherwise, it can lead to an injury or accident.
 - The differential lock is disengaged when depressing the brake pedal.
 
 - The differential lock is disengaged when the vehicle speed exceeds 15km/h.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ PTO AUTO STOP HEIGHT SET SWITCH

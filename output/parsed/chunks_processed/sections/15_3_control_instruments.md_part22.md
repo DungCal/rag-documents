@@ -9,9 +9,3 @@
 #### TOP LINK EXTRACTION SWITCH
 
 Top link cylinder extracts while the button is pressed.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ TOP LINK RETRACTION SWITCH

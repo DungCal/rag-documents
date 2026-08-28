@@ -15,9 +15,3 @@ Slow down before you make a sharp turn.
 Driving forward out of a ditch or mired condition could cause tractor to tip over backward.
 
 Back out of these situations if possible.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PARK TRACTOR SAFELY

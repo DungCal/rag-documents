@@ -15,9 +15,3 @@ This is used to control sensitivity of shuttle speed.
 The middle position of the dial is recommended.
 
 Repeat above until desired shuttle response is achieved.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ REMOTE CONTROL LEVERS

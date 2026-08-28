@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -18,10 +20,3 @@ Do not coast or free wheel down hills.
 6. When the tractor is stuck or tires are frozen to the ground, back out to prevent upset.
 
 7. Always check overhead clearance, especially when transporting the tractor.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### <OPERATING THE PTO>

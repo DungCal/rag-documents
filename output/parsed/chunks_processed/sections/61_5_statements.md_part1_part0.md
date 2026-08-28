@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -12,10 +14,3 @@ This equipment should be installed and operated with minimum distance 20 cm betw
 # K. INDEX
 
 1. INDEX K-2
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • 0 ~ 9

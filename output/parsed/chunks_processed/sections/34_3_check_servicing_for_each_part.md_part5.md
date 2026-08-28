@@ -39,9 +39,3 @@ Make sure to clean your skin with soap and water or hand cleaner thoroughly.
 - Check the fluid before starting the engine or at least in 5 minutes after the engine is stopped.
 
 - When trying to use new fluid from a different manufacturer or fluid with different viscosity, drain used fluid completely before adding new fluid.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CHECKING AND CHANGING FRONT AXLE OIL

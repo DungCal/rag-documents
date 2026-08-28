@@ -1,3 +1,5 @@
+## 5. STATEMENTS
+
 ### ▶ INDUSTRY CANADA STATEMENT
 
 
@@ -102,10 +104,3 @@ SYSTEM GENERAL · · · · · · · · · · · · · · · · · · · · F - 2
 SYSTEM SETTING ·····F-18,G-36
 
 SYSTEM SETTING MENU ·····F-18
-
-
-
-### ▶ INDUSTRY CANADA STATEMENT
-
-### ▶ INDUSTRY CANADA STATEMENT
-#### • T

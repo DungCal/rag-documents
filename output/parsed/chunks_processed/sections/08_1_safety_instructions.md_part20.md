@@ -13,9 +13,3 @@ The possible safety exits are:
 • Rear window hatch (All tractors)
 
 - Front window (for versions with openable front window).
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ SAFETY PRECAUTIONS WHEN USING LOADER

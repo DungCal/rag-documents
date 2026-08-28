@@ -13,9 +13,3 @@ Keep children and others away from the tractor while operating.
 - Look behind tractor for children.
 
 - Do not let children to ride on tractor or any implement.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ USE OF ROPS AND SEAT BELT

@@ -23,9 +23,3 @@ Pressing it once again turns off the lamp and deactivates the function.
 #### WARNING
 
 - Do not activate the reverse driving-lifting function or turning-lifting function while driving on a road.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ PTO AUTO SWITCH

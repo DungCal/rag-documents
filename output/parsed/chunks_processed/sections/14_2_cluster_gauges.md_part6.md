@@ -15,9 +15,3 @@ C: Cold
 If the needle is in the red "H" zone during driving, the coolant is overheated.
 
 In this case, stop driving and take any necessary action according to the troubleshooting instructions.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ TURN SIGNAL LAMP

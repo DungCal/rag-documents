@@ -9,9 +9,3 @@
 Escaping fluid under high pressure can penetrate the skin causing serious injury. Keep hands and body away from pin holes and nozzle which eject fluids under high pressure.
 
 If any fluid is injected into the skin, consult your doctor immediately.
-
-
-
-## 1. SAFETY INSTRUCTIONS
-
-### ▶ PREVENT BATTERY EXPLOSION

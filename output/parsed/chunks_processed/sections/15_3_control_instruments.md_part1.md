@@ -9,9 +9,3 @@
 #### Depressing the clutch pedal disengages the clutch.
 
 With the clutch pedal depressed, move the main, range or shuttle lever into the desired position and release the pedal. Then, the clutch is engaged.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ BRAKE PEDALS

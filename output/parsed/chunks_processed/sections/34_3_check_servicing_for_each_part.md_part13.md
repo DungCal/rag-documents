@@ -32,9 +32,3 @@ Nm
 - Connect cable connections.
 
 11. Open the fuel shutoff tap and vent the system, see venting the fuel system
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ VENT THE FUEL SYSTEM

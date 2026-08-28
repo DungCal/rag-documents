@@ -11,9 +11,3 @@
 PTO rotation would stop when an implement is raised at certain height.
 
 Height of PTO auto function can be set among low(L), middle(M) and high(H).
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ MAIN SHIFT SHIFTING SENSITIVITY CONTROL SWITCH

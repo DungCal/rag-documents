@@ -30,9 +30,3 @@
 
 - The filter cartridge should never be prefilled.
 There is a danger of dirt contamination!
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ UREA TANK

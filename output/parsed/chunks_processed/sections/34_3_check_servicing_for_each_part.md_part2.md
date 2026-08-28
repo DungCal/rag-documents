@@ -14,9 +14,3 @@ Clean the grille in this case. If dust is stuck between the fin and tube, flush 
 
 - Do not clean the radiator fin with water jet.
 It can deform the fin.
-
-
-
-## 3. CHECK & SERVICING FOR EACH PART
-
-### ▶ CLEANING CONDENSER AND OIL COOLER GRILLE

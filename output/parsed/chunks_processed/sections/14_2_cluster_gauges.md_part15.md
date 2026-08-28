@@ -19,9 +19,3 @@ This comes on when the reverse driving-lifting function is selected with its swi
 #### - TURN-UP LAMP
 
 This comes on when the turning lifting function is selected with its switch.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ PTO LAMP, PTO CRUISE LAMP

@@ -11,9 +11,3 @@ It has the same function to the throttle dial to control the engine speed.
 - Depressing - The engine speed is increased.
 
 - Releasing - The engine idles.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ PARKING BRAKE LEVER

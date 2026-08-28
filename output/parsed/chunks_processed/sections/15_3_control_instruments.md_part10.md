@@ -19,9 +19,3 @@ Please refer to the 'TOUCH MONITOR' section for more detail.
 - Do not drive backward with the sub shift lever placed in the ‘H’ position as driving backward with fast speed can lead to a dangerous situation.
 
 ● Before changing the sub shift position, stop the tractor and press clutch pedal.
-
-
-
-## 3. CONTROL INSTRUMENTS
-
-### ▶ CREEP SHIFT LEVER

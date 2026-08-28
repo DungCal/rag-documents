@@ -17,9 +17,3 @@ This comes on when the urea level in the tank is below 25%.
 - The engine power decreases if urea is insufficient.
 
 Fill urea as soon as possible.
-
-
-
-## 2. CLUSTER & GAUGES
-
-### ▶ UREA LEVEL LAMPS

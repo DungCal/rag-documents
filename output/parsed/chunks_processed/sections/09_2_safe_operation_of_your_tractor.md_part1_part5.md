@@ -1,3 +1,5 @@
+## 2. SAFE OPERATION OF YOUR TRACTOR
+
 ### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
 
 
@@ -14,10 +16,3 @@
 Do not clean, adjust or service PTO driven equipment when the tractor engine is running.
 
 5. Make sure the PTO master shield is installed at all times and always replace the PTO shield cap when the PTO is not in use.
-
-
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-
-### ▶ MOUNTING AND DEMOUNTING IMPLEMENTS
-#### <DIESEL FUEL>

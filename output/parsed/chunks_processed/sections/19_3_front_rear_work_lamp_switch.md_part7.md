@@ -25,9 +25,3 @@ To fix the position, push down the lever.
 - Adjust the position of the steering only when the tractor is stationary.
 
 Adjusting it during driving can cause an accident.
-
-
-
-## 3. Front/Rear work lamp switch
-
-### ▶ PASSENGER SEAT
