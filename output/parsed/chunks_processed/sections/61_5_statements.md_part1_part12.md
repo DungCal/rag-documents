@@ -1,0 +1,9 @@
+## 5. STATEMENTS
+
+### ▶ INDUSTRY CANADA STATEMENT
+
+
+
+#### • K
+
+KEEP RIDERS OFF TRACTOR ······B-4

@@ -3,5 +3,5 @@ pinecone
 pinecone-text
 huggingface_hub
 python-dotenv
-sentence-transformers
-torch
+tiktoken
+langchain-text-splitters

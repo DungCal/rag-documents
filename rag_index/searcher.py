@@ -4,7 +4,7 @@ from pinecone import Pinecone
 from pinecone_text.sparse import SpladeEncoder
 
 from . import config
-from .embedder import BGE_M3_Embedder, HF_BGE_M3_Embedder, Local_BGE_M3_Embedder, get_embedder
+from .embedder import BGE_M3_Embedder
 
 
 def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
@@ -26,7 +26,6 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "id": parent_file,
                     "scores": [],
                     "content_parts": [],
-                    "subsections": [],
                     "page_numbers": set(),
                     "sources": set(),
                     "parent_heading": md.get("parent_heading"),
@@ -34,16 +33,8 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "heading_level": md.get("heading_level"),
                 },
             )
-            content = md.get("content", "")
             g["scores"].append(r["score"])
-            g["content_parts"].append(content)
-            g["subsections"].append(
-                {
-                    "id": r["id"],
-                    "heading": md.get("heading"),
-                    "snippet": content[:200],
-                }
-            )
+            g["content_parts"].append(md.get("content", ""))
             g["page_numbers"].update(md.get("page_numbers") or [])
             g["sources"].update(md.get("sources") or [])
         else:
@@ -63,7 +54,6 @@ def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
                     "heading": g["parent_heading"],
                     "parent_heading": g["parent_heading"],
                     "content": "\n\n".join(g["content_parts"]),
-                    "subsections": g["subsections"],
                     "page_numbers": sorted(g["page_numbers"]),
                     "sources": sorted(g["sources"]),
                 },
@@ -80,29 +70,15 @@ class HybridSearcher:
 
     def __init__(
         self,
-        embedder: Local_BGE_M3_Embedder | HF_BGE_M3_Embedder | None = None,
-        embedder_type: str | None = None,
+        embedder: BGE_M3_Embedder | None = None,
         api_key: str | None = None,
-        host: str | None = None,
         index_name: str | None = None,
     ):
-        self.host = host or config.PINECONE_HOST or None
-        self.api_key = api_key or config.PINECONE_API_KEY or ("pclocal" if self.host else "")
-        self.embedder = embedder or get_embedder(embedder_type=embedder_type)
+        self.embedder = embedder or BGE_M3_Embedder()
         self.index_name = index_name or config.PINECONE_INDEX_NAME
-
-        kwargs = {"api_key": self.api_key}
-        if self.host:
-            kwargs["host"] = self.host
-        self.pc = Pinecone(**kwargs)
+        self.pc = Pinecone(api_key=api_key or config.PINECONE_API_KEY)
         self.splade = SpladeEncoder()
-
-        if self.host:
-            desc = self.pc.describe_index(self.index_name)
-            target_host = desc.host if desc.host.startswith("http") else f"http://{desc.host}"
-            self.idx = self.pc.Index(host=target_host)
-        else:
-            self.idx = self.pc.Index(self.index_name)
+        self.idx = self.pc.Index(self.index_name)
 
     def search(self, query: str, top_k: int = 10, namespace: str = "") -> list[dict]:
         dense = self.embedder.embed(query)
@@ -134,28 +110,14 @@ class DenseSearcher:
 
     def __init__(
         self,
-        embedder: Local_BGE_M3_Embedder | HF_BGE_M3_Embedder | None = None,
-        embedder_type: str | None = None,
+        embedder: BGE_M3_Embedder | None = None,
         api_key: str | None = None,
-        host: str | None = None,
         index_name: str | None = None,
     ):
-        self.host = host or config.PINECONE_HOST or None
-        self.api_key = api_key or config.PINECONE_API_KEY or ("pclocal" if self.host else "")
-        self.embedder = embedder or get_embedder(embedder_type=embedder_type)
+        self.embedder = embedder or BGE_M3_Embedder()
         self.index_name = index_name or config.PINECONE_DENSE_INDEX_NAME
-
-        kwargs = {"api_key": self.api_key}
-        if self.host:
-            kwargs["host"] = self.host
-        self.pc = Pinecone(**kwargs)
-
-        if self.host:
-            desc = self.pc.describe_index(self.index_name)
-            target_host = desc.host if desc.host.startswith("http") else f"http://{desc.host}"
-            self.idx = self.pc.Index(host=target_host)
-        else:
-            self.idx = self.pc.Index(self.index_name)
+        self.pc = Pinecone(api_key=api_key or config.PINECONE_API_KEY)
+        self.idx = self.pc.Index(self.index_name)
 
     def search(self, query: str, top_k: int = 10, namespace: str = "") -> list[dict]:
         dense = self.embedder.embed(query)
@@ -177,4 +139,4 @@ class DenseSearcher:
 
     @staticmethod
     def merge_by_parent(results: list[dict], top_k: int = 10) -> list[dict]:
-        return merge_by_parent(results, top_k=top_k)
+        return merge_by_parent(results, top_k=top_k)

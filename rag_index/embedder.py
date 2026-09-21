@@ -1,8 +1,5 @@
-import os
-import random
 import time
-from pathlib import Path
-from typing import Literal
+import random
 
 from huggingface_hub import InferenceClient
 from huggingface_hub.errors import HfHubHTTPError
@@ -41,99 +38,7 @@ def _retry_embedding(func, text: str, max_retries: int = 5, base_delay: float = 
     raise RuntimeError("Max retries exceeded")
 
 
-class Local_BGE_M3_Embedder:
-    """Embed text locally using BGE-M3 model weights via SentenceTransformer."""
-
-    def __init__(
-        self,
-        model_path: str | Path | None = None,
-        device: str | None = None,
-    ):
-        raw_path = model_path or config.LOCAL_BGE_M3_PATH
-        p = Path(raw_path)
-        if not p.exists():
-            # Try resolving relative to repository root
-            repo_root = Path(__file__).resolve().parents[1]
-            alt_path = repo_root / raw_path
-            if alt_path.exists():
-                p = alt_path
-            else:
-                raise FileNotFoundError(
-                    f"Local BGE-M3 model path not found: {raw_path} (also checked {alt_path})"
-                )
-
-        self.model_path = str(p.resolve())
-        dev = (device or config.EMBEDDER_DEVICE or "auto").strip().lower()
-        if dev.startswith("cuda"):
-            try:
-                import torch
-
-                if not torch.cuda.is_available():
-                    raise RuntimeError(
-                        f"Device '{dev}' requested for local BGE-M3 model, but CUDA is not available in the current PyTorch environment.\n"
-                        "To enable GPU acceleration on NVIDIA GPUs, install CUDA-enabled PyTorch:\n"
-                        "  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124"
-                    )
-                self.device = dev
-                gpu_name = torch.cuda.get_device_name(0) if torch.cuda.device_count() > 0 else "GPU"
-                logger.info("Forcing GPU execution on %s (device='%s')", gpu_name, self.device)
-            except ImportError:
-                raise RuntimeError("PyTorch is not installed in the environment.")
-        elif dev == "auto":
-            try:
-                import torch
-
-                if torch.cuda.is_available():
-                    self.device = "cuda"
-                    gpu_name = torch.cuda.get_device_name(0) if torch.cuda.device_count() > 0 else "GPU"
-                    logger.info("Auto-detected GPU: using %s (device='cuda')", gpu_name)
-                else:
-                    self.device = "cpu"
-                    logger.info("CUDA not available: using CPU")
-            except ImportError:
-                self.device = "cpu"
-        else:
-            self.device = dev
-
-        logger.info(
-            "Initializing Local_BGE_M3_Embedder from '%s' on device='%s'",
-            self.model_path,
-            self.device,
-        )
-        from sentence_transformers import SentenceTransformer
-
-        self.model = SentenceTransformer(self.model_path, device=self.device)
-
-    def embed(self, text: str) -> list[float]:
-        if not text or not text.strip():
-            return [0.0] * config.EMBEDDING_DIM
-        emb = self.model.encode(text, normalize_embeddings=True, show_progress_bar=False)
-        return emb.tolist() if hasattr(emb, "tolist") else list(emb)
-
-    def embed_documents(
-        self,
-        texts: list[str],
-        batch_size: int = 16,
-    ) -> list[list[float]]:
-        if not texts:
-            return []
-        total = len(texts)
-        logger.info("Local embedding %d texts with batch_size=%d ...", total, batch_size)
-        start = time.perf_counter()
-        embs = self.model.encode(
-            texts,
-            batch_size=batch_size,
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )
-        elapsed = time.perf_counter() - start
-        logger.info("Local embedding done: %d vectors in %.3fs", total, elapsed)
-        if hasattr(embs, "tolist"):
-            return embs.tolist()
-        return [e.tolist() if hasattr(e, "tolist") else list(e) for e in embs]
-
-
-class HF_BGE_M3_Embedder:
+class BGE_M3_Embedder:
     """Embed text with BGE-M3 via HuggingFace InferenceClient."""
 
     def __init__(self, token: str | None = None, model: str | None = None):
@@ -180,25 +85,3 @@ class HF_BGE_M3_Embedder:
                 elapsed,
             )
         return embeddings
-
-
-# Alias for backward compatibility
-BGE_M3_Embedder = HF_BGE_M3_Embedder
-
-
-def get_embedder(
-    embedder_type: Literal["local", "hf"] | str | None = None,
-    **kwargs,
-) -> Local_BGE_M3_Embedder | HF_BGE_M3_Embedder:
-    """Factory function to return either a local or Hugging Face BGE-M3 embedder."""
-    selected_type = (embedder_type or config.EMBEDDER_TYPE or "local").lower()
-    if selected_type in ("local", "local_bge_m3", "sentence_transformers"):
-        return Local_BGE_M3_Embedder(**kwargs)
-    elif selected_type in ("hf", "huggingface", "api"):
-        # HF embedder only accepts token/model; drop CLI-only kwargs (model_path, device).
-        hf_kwargs = {k: v for k, v in kwargs.items() if k in ("token", "model")}
-        return HF_BGE_M3_Embedder(**hf_kwargs)
-    else:
-        raise ValueError(
-            f"Unknown embedder_type: '{selected_type}'. Supported values are 'local' and 'hf'."
-        )
